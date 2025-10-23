@@ -1,0 +1,43 @@
+name: Fetch RUB Mensa Menus
+
+on:
+  schedule:
+    - cron: "15 05 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-store:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Fetch weekly menus
+        run: bun run fetch:menus
+
+      - name: Commit and push changes
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          if [[ -n "$(git status --porcelain data/menus)" ]]; then
+            git add data/menus
+            git commit -m "chore: update RUB menus"
+            git push
+          else
+            echo "No menu updates to commit."
+          fi

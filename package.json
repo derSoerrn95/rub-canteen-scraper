@@ -1,0 +1,14 @@
+{
+  "name": "rub-mensa-scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:menus": "bun run scripts/fetch-menus.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
