@@ -5,7 +5,7 @@
     "from": "2025-10-27",
     "to": "2025-10-31"
   },
-  "generatedAt": "2025-10-29T05:34:16.677Z",
+  "generatedAt": "2025-10-30T05:33:24.484Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -681,7 +681,7 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Teriyaki Hähnchenbrust mit Kokossauce",
+                  "title": "Hähnchenbrust mit Kokossauce",
                   "allergens": [
                     "G",
                     "a",
@@ -784,11 +784,11 @@
                   ],
                   "allergensRaw": "V,a,a1,a3,f,g,i,1,3",
                   "price": {
-                    "raw": "2,60 € / 4,50 €",
+                    "raw": "2,50 € / 4,40 €",
                     "currency": "EUR",
                     "values": [
-                      2.6,
-                      4.5
+                      2.5,
+                      4.4
                     ],
                     "labels": [
                       "students",
@@ -803,15 +803,18 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Kürbis-Kichererbsen-Bulgurpfanne mit Minz Dip",
+                  "title": "Piroggen mit Paprikasauce",
                   "allergens": [
-                    "VG",
+                    "V",
                     "a",
                     "a1",
+                    "c",
                     "f",
-                    "2"
+                    "i",
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "VG,a,a1,f,2",
+                  "allergensRaw": "V,a,a1,c,f,i,2,9",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -854,11 +857,75 @@
                   "highlight": false
                 },
                 {
+                  "title": "Balkan-Gemüse",
+                  "allergens": [
+                    "VG",
+                    "i"
+                  ],
+                  "allergensRaw": "VG,i",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Karotten in Rahm",
+                  "allergens": [
+                    "VG",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Kichererbsenreis",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Reisnudeln",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2538,13 +2605,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2556,13 +2624,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2671,6 +2739,27 @@
                     "2"
                   ],
                   "allergensRaw": "V,a,a1,c,f,g,2",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3796,7 +3885,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Germknödel mit Heidelbeeren, Vanillesauce, Mohn und Granola (VG,a,a1,f,2)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -3910,7 +3999,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Kürbiscreme (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
