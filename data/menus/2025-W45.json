@@ -5,7 +5,7 @@
     "from": "2025-11-03",
     "to": "2025-11-07"
   },
-  "generatedAt": "2025-11-05T05:34:02.128Z",
+  "generatedAt": "2025-11-06T05:35:49.464Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -686,7 +686,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Weisse Bohnen aus dem Ofen mit Tarama-Dip , gepickeltes Gemüse dazu Salat und Brot",
+                  "title": "Weisse Bohnen aus dem Ofen mit Tarama-Dip , gepickeltes Gemüse und Brot",
                   "allergens": [
                     "A",
                     "V",
@@ -749,18 +749,16 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Hähnchen Cordon Bleu mit Sauce Choron",
+                  "title": "Hähnchenbrust mit Currysauce",
                   "allergens": [
                     "G",
                     "a",
                     "a1",
                     "c",
-                    "g",
-                    "i",
-                    "2",
-                    "3"
+                    "f",
+                    "g"
                   ],
-                  "allergensRaw": "G,a,a1,c,g,i,2,3",
+                  "allergensRaw": "G,a,a1,c,f,g",
                   "price": {
                     "raw": "3,20 € / 5,40 €",
                     "currency": "EUR",
@@ -781,15 +779,17 @@
               "title": "Döner",
               "meals": [
                 {
-                  "title": "Hähnchendöner mit Pommes und Salat",
+                  "title": "Hähnchendöner mit Wedges und Salat",
                   "allergens": [
                     "G",
                     "H",
+                    "a",
+                    "a1",
                     "g",
                     "i",
                     "j"
                   ],
-                  "allergensRaw": "G,H,g,i,j",
+                  "allergensRaw": "G,H,a,a1,g,i,j",
                   "price": {
                     "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
@@ -810,7 +810,7 @@
               "title": "Falafel Teller",
               "meals": [
                 {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
+                  "title": "Falafel Teller mit Wedges oder Reis und Salat",
                   "allergens": [
                     "VG",
                     "a",
@@ -927,6 +927,26 @@
                   "highlight": false
                 },
                 {
+                  "title": "Buntes Gemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Spätzle",
                   "allergens": [
                     "V",
@@ -935,6 +955,28 @@
                     "c"
                   ],
                   "allergensRaw": "V,a,a1,c",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Nudeln",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2375,7 +2417,7 @@
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Hähnchenschnitzel mit Kartoffelsalat",
+                  "title": "leider Ausverkauft",
                   "allergens": [
                     "G",
                     "a",
@@ -2404,7 +2446,7 @@
               "title": "Wok",
               "meals": [
                 {
-                  "title": "Rindfleischstreifen mit Champignons & Brokkoli dazu Bratnudeln",
+                  "title": "leider Ausverkauft",
                   "allergens": [
                     "R",
                     "a",
@@ -3871,7 +3913,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "No Meat Döner dazu Steak fries (VG,a,a1,a3,a4,f,j,k)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -3988,7 +4030,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Blumenkohlcreme",
                   "allergens": [
                     "VG",
                     "f",
@@ -4085,7 +4127,7 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Mango-Kokos-Bowl",
+                  "title": "Palatschinken mit Kirschen",
                   "allergens": [
                     "VG",
                     "h",
