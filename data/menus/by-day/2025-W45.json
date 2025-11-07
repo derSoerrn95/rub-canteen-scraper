@@ -5,7 +5,7 @@
     "from": "2025-11-03",
     "to": "2025-11-07"
   },
-  "generatedAt": "2025-11-06T05:35:49.464Z",
+  "generatedAt": "2025-11-07T05:33:50.429Z",
   "days": {
     "2025-11-03": {
       "label": "Mo, 03.11.",
@@ -3282,9 +3282,10 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Geflügelhackbraten mit Bratensauce",
+                  "title": "Frikadelle Hausfrauenart mit Bratensauce",
                   "allergens": [
-                    "G",
+                    "S",
+                    "R",
                     "a",
                     "a1",
                     "a3",
@@ -3292,13 +3293,13 @@
                     "f",
                     "i"
                   ],
-                  "allergensRaw": "G,a,a1,a3,c,f,i",
+                  "allergensRaw": "S,R,a,a1,a3,c,f,i",
                   "price": {
-                    "raw": "2,70 € / 4,90 €",
+                    "raw": "2,00 € / 3,50 €",
                     "currency": "EUR",
                     "values": [
-                      2.7,
-                      4.9
+                      2,
+                      3.5
                     ],
                     "labels": [
                       "students",
@@ -3406,15 +3407,15 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Panang Curry mit Asia Nudeln",
+                  "title": "Steakhousepfanne",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "f",
-                    "2"
+                    "j",
+                    "f"
                   ],
-                  "allergensRaw": "VG,a,a1,f,2",
+                  "allergensRaw": "VG,a,a1,j,f",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -3455,12 +3456,13 @@
                   "highlight": false
                 },
                 {
-                  "title": "Kartoffelpüree",
+                  "title": "Nudeln",
                   "allergens": [
-                    "V",
-                    "g"
+                    "VG",
+                    "a",
+                    "a1"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -3542,6 +3544,31 @@
             }
           },
           "categories": [
+            {
+              "title": "Grill",
+              "meals": [
+                {
+                  "title": "Tomatencurry mit Paprika, Zucchini und Linsen dazu Reis",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "4,30 € / 5,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.3,
+                      5.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
             {
               "title": "Wok",
               "meals": [
@@ -3746,13 +3773,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -3764,13 +3792,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -3867,14 +3895,18 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Grießpudding mit Roter Grütze",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
-                    "g"
+                    "c",
+                    "f",
+                    "g",
+                    "1",
+                    "2"
                   ],
-                  "allergensRaw": "V,a,a1,g",
+                  "allergensRaw": "V,a,a1,c,f,g,1,2",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3898,6 +3930,27 @@
                     "h2"
                   ],
                   "allergensRaw": "f,g,h,h2",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Vanillepudding mit roter Grütze",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3983,7 +4036,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Grünkohl-Hanf Burger (A,VG,a,a1,a3,f,j,l,1,5)",
+                  "title": "Grünkohl-Hanf Burger (A,VG,a,a1,a3,f,j,l,1,5) mit Country cubs",
                   "allergens": [
                     "A",
                     "VG",
@@ -4107,7 +4160,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Mediterraner Gyrostopf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
