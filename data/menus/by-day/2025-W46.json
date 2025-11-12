@@ -5,7 +5,7 @@
     "from": "2025-11-10",
     "to": "2025-11-14"
   },
-  "generatedAt": "2025-11-11T05:34:00.024Z",
+  "generatedAt": "2025-11-12T05:34:15.839Z",
   "days": {
     "2025-11-10": {
       "label": "Mo, 10.11.",
@@ -1194,25 +1194,26 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Schweinegeschnetzeltes in Champignonrahm",
+                  "title": "Frikadelle Hausfrauen Art mit Tsatziki",
                   "allergens": [
                     "S",
                     "a",
                     "a1",
                     "a3",
+                    "c",
                     "f",
                     "g",
                     "i",
                     "j",
                     "3"
                   ],
-                  "allergensRaw": "S,a,a1,a3,f,g,i,j,3",
+                  "allergensRaw": "S,a,a1,a3,c,f,g,i,j,3",
                   "price": {
-                    "raw": "2,60 € / 4,80 €",
+                    "raw": "2,00 € / 3,00 €",
                     "currency": "EUR",
                     "values": [
-                      2.6,
-                      4.8
+                      2,
+                      3
                     ],
                     "labels": [
                       "students",
@@ -1372,14 +1373,33 @@
                   "highlight": false
                 },
                 {
-                  "title": "Spätzle",
+                  "title": "Mischgemüse",
                   "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "c"
+                    "VG"
                   ],
-                  "allergensRaw": "V,a,a1,c",
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Penne Rigate",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -1689,13 +1709,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -1707,13 +1728,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -1805,7 +1826,30 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Schokoladenpudding mit Vanillesauce",
+                  "title": "Grießpudding mit Roter Grütze",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "g"
+                  ],
+                  "allergensRaw": "V,a,a1,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Karamell-Sahnepudding",
                   "allergens": [
                     "V",
                     "a",
@@ -1832,12 +1876,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Mousse \"Erdnuss\"",
+                  "title": "Pfirsich Aprikosen Pudding",
                   "allergens": [
-                    "e",
+                    "V",
                     "g"
                   ],
-                  "allergensRaw": "e,g",
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2039,7 +2083,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Tofu-Gemüsetopf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
@@ -2136,7 +2180,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Nordic Burger Deluxe mit Country Cubes",
+                  "title": "Nordic Burger Deluxe mit Country Cubes dazu ein Joyce-Getränk",
                   "allergens": [
                     "G",
                     "a",
@@ -2152,11 +2196,11 @@
                   ],
                   "allergensRaw": "G,a,a1,a3,c,g,i,j,1,2,9",
                   "price": {
-                    "raw": "6,20 € / 7,20 €",
+                    "raw": "6,90 € / 8,50 €",
                     "currency": "EUR",
                     "values": [
-                      6.2,
-                      7.2
+                      6.9,
+                      8.5
                     ],
                     "labels": [
                       "students",
@@ -3133,26 +3177,26 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Rinderroulade mit Bratensauce, Kartoffelklöße und Rotkohl",
+                  "title": "Rinderroulade mit Bratensauce, Semmelkloß, Kartoffelkloß und Rotkohl",
                   "allergens": [
                     "R",
                     "S",
                     "a",
                     "a1",
                     "a3",
+                    "c",
                     "f",
                     "i",
                     "j",
-                    "2",
                     "9"
                   ],
-                  "allergensRaw": "R,S,a,a1,a3,f,i,j,2,9",
+                  "allergensRaw": "R,S,a,a1,a3,c,f,i,j,9",
                   "price": {
-                    "raw": "6,90 € / 7,90 €",
+                    "raw": "6,50 € / 8,00 €",
                     "currency": "EUR",
                     "values": [
-                      6.9,
-                      7.9
+                      6.5,
+                      8
                     ],
                     "labels": [
                       "students",
@@ -4097,26 +4141,26 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Rinderroulade mit Bratensauce, Kartoffelklöße und Rotkohl",
+                  "title": "Rinderroulade mit Bratensauce, Semmelkloß, Kartoffelkloß und Rotkohl",
                   "allergens": [
                     "R",
                     "S",
                     "a",
                     "a1",
                     "a3",
+                    "c",
                     "f",
                     "i",
                     "j",
-                    "2",
                     "9"
                   ],
-                  "allergensRaw": "R,S,a,a1,a3,f,i,j,2,9",
+                  "allergensRaw": "R,S,a,a1,a3,c,f,i,j,9",
                   "price": {
-                    "raw": "6,90 € / 7,90 €",
+                    "raw": "6,50 € / 8,00 €",
                     "currency": "EUR",
                     "values": [
-                      6.9,
-                      7.9
+                      6.5,
+                      8
                     ],
                     "labels": [
                       "students",
