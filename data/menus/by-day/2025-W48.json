@@ -5,7 +5,7 @@
     "from": "2025-11-24",
     "to": "2025-11-28"
   },
-  "generatedAt": "2025-11-26T05:34:11.940Z",
+  "generatedAt": "2025-11-27T05:35:00.974Z",
   "days": {
     "2025-11-24": {
       "label": "Mo, 24.11.",
@@ -2155,7 +2155,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "U.S. Bacon-Burger mit Curly Fries",
+                  "title": "U.S. Bacon-Burger mit Wedges dazu ein Eis (solange der Vorrat reicht)",
                   "allergens": [
                     "A",
                     "R",
@@ -2172,11 +2172,11 @@
                   ],
                   "allergensRaw": "A,R,S,a,a1,c,g,i,1,2,3,9",
                   "price": {
-                    "raw": "6,50 € / 8,30 €",
+                    "raw": "7,60 € / 9,90 €",
                     "currency": "EUR",
                     "values": [
-                      6.5,
-                      8.3
+                      7.6,
+                      9.9
                     ],
                     "labels": [
                       "students",
@@ -2259,9 +2259,10 @@
                     "H",
                     "g",
                     "i",
-                    "j"
+                    "j",
+                    "2"
                   ],
-                  "allergensRaw": "G,H,g,i,j",
+                  "allergensRaw": "G,H,g,i,j,2",
                   "price": {
                     "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
@@ -2397,11 +2398,54 @@
                   "highlight": false
                 },
                 {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Kichererbsenreis",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Türkischer Reis",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,a,a1,1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2710,13 +2754,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Thunfisch oder Gouda",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -2727,13 +2772,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2779,12 +2824,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Bohnensalat",
+                  "title": "Chinakohlsalat",
                   "allergens": [
-                    "VG",
-                    "f"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,f",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2800,14 +2844,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Cole-Slaw-Salat",
+                  "title": "Rote Bete Salat",
                   "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "j"
+                    "VG"
                   ],
-                  "allergensRaw": "V,c,g,j",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2839,6 +2880,27 @@
                     "2"
                   ],
                   "allergensRaw": "V,a,a1,c,f,g,2",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Panna Cotta Pudding mit Kirschen",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2945,7 +3007,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Germknödel mit Heidelbeeren, Vanillesauce, Mohn und Granola (VG,a,a1,f,2)",
+                  "title": "Germknödel mit Sauerkirchen, Vanillesauce, Mohn und Granola (VG,a,a1,f,2)",
                   "allergens": [
                     "VG",
                     "a",
@@ -3059,7 +3121,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Kohlrabi-Karotten-Pilz-Creme",
                   "allergens": [
                     "VG",
                     "f",
@@ -3254,9 +3316,10 @@
                     "H",
                     "g",
                     "i",
-                    "j"
+                    "j",
+                    "2"
                   ],
-                  "allergensRaw": "G,H,g,i,j",
+                  "allergensRaw": "G,H,g,i,j,2",
                   "price": {
                     "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
@@ -4219,9 +4282,10 @@
                     "H",
                     "g",
                     "i",
-                    "j"
+                    "j",
+                    "2"
                   ],
-                  "allergensRaw": "G,H,g,i,j",
+                  "allergensRaw": "G,H,g,i,j,2",
                   "price": {
                     "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
