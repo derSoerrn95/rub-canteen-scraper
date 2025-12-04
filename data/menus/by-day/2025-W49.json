@@ -5,7 +5,7 @@
     "from": "2025-12-01",
     "to": "2025-12-05"
   },
-  "generatedAt": "2025-12-03T05:34:54.045Z",
+  "generatedAt": "2025-12-04T05:35:14.810Z",
   "days": {
     "2025-12-01": {
       "label": "Mo, 01.12.",
@@ -2139,36 +2139,6 @@
               ]
             },
             {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Schweineschnitzel mit Sauce Bernaise",
-                  "allergens": [
-                    "S",
-                    "a",
-                    "a1",
-                    "c",
-                    "g",
-                    "i"
-                  ],
-                  "allergensRaw": "S,a,a1,c,g,i",
-                  "price": {
-                    "raw": "2,80 € / 5,10 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.8,
-                      5.1
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Döner",
               "meals": [
                 {
@@ -2233,7 +2203,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo ,Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -2276,11 +2246,11 @@
                   ],
                   "allergensRaw": "V,a,a1,c,g",
                   "price": {
-                    "raw": "2,20 € / 3,30 €",
+                    "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
                     "values": [
-                      2.2,
-                      3.3
+                      2.5,
+                      4.5
                     ],
                     "labels": [
                       "students",
@@ -2295,7 +2265,7 @@
               "title": "Beilage",
               "meals": [
                 {
-                  "title": "Brokkoli",
+                  "title": "Leipziger Allerlei",
                   "allergens": [
                     "VG"
                   ],
@@ -2315,13 +2285,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Macaire Kartoffel",
+                  "title": "Kartoffelpürree",
                   "allergens": [
                     "VG",
-                    "a",
-                    "a1"
+                    "g"
                   ],
-                  "allergensRaw": "VG,a,a1",
+                  "allergensRaw": "VG,g",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2412,10 +2381,11 @@
                     "G",
                     "a",
                     "a1",
+                    "a3",
                     "2",
                     "9"
                   ],
-                  "allergensRaw": "G,a,a1,2,9",
+                  "allergensRaw": "G,a,a1,a3,2,9",
                   "price": {
                     "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
@@ -2631,13 +2601,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -2648,13 +2619,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2700,12 +2671,16 @@
                   "highlight": false
                 },
                 {
-                  "title": "Bohnensalat",
+                  "title": "Gurken-Rahm-Salat",
                   "allergens": [
-                    "VG",
-                    "f"
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "j",
+                    "2"
                   ],
-                  "allergensRaw": "VG,f",
+                  "allergensRaw": "V,c,f,g,j,2",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2721,14 +2696,14 @@
                   "highlight": false
                 },
                 {
-                  "title": "Cole-Slaw-Salat",
+                  "title": "Kartoffelsalat mit Ei",
                   "allergens": [
                     "V",
                     "c",
-                    "g",
-                    "j"
+                    "j",
+                    "5"
                   ],
-                  "allergensRaw": "V,c,g,j",
+                  "allergensRaw": "V,c,j,5",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2749,15 +2724,12 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Vanille Quark mit Himbeeren und Butterkeksen",
+                  "title": "Panna Cotta Pudding mit Kirschen",
                   "allergens": [
                     "V",
-                    "a",
-                    "a1",
-                    "g",
-                    "1"
+                    "g"
                   ],
-                  "allergensRaw": "V,a,a1,g,1",
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2773,7 +2745,34 @@
                   "highlight": false
                 },
                 {
-                  "title": "Waldfrucht Pudding",
+                  "title": "Karamell-Sahnepudding",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c",
+                    "f",
+                    "g",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "V,a,a1,c,f,g,1,2",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Pfirsich Aprikosen Pudding",
                   "allergens": [
                     "V",
                     "g"
@@ -2864,7 +2863,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "No Meat Döner dazu Steak fries (VG,a,a1,a3,a4,f,j,k)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -2980,7 +2979,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Kürbis-Tomaatentopf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",

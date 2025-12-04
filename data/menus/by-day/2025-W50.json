@@ -5,7 +5,7 @@
     "from": "2025-12-08",
     "to": "2025-12-12"
   },
-  "generatedAt": "2025-12-03T05:34:54.045Z",
+  "generatedAt": "2025-12-04T05:35:14.810Z",
   "days": {
     "2025-12-08": {
       "label": "Mo, 08.12.",
@@ -844,6 +844,35 @@
             }
           },
           "categories": [
+            {
+              "title": "Aktion",
+              "meals": [
+                {
+                  "title": "Mini Frühlingsrolle mit Sweet Chili Dip / Glasnudelsalat (VG,a,a1,f,k)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "k"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,k",
+                  "price": {
+                    "raw": "5,50 € / 7,80 €",
+                    "currency": "EUR",
+                    "values": [
+                      5.5,
+                      7.8
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": true
+                }
+              ]
+            },
             {
               "title": "Buffet",
               "meals": [
@@ -1710,12 +1739,10 @@
                     "a",
                     "a1",
                     "c",
-                    "f",
                     "g",
-                    "1",
-                    "2"
+                    "1"
                   ],
-                  "allergensRaw": "V,a,a1,c,f,g,1,2",
+                  "allergensRaw": "V,a,a1,c,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
