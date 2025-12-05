@@ -5,7 +5,7 @@
     "from": "2025-12-01",
     "to": "2025-12-05"
   },
-  "generatedAt": "2025-12-04T05:35:14.810Z",
+  "generatedAt": "2025-12-05T05:35:16.841Z",
   "days": {
     "2025-12-01": {
       "label": "Mo, 01.12.",
@@ -3138,7 +3138,7 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Gebratene Hähnchenbrust mit Zitronen-Rahmsauce",
+                  "title": "Gebratene Hähnchenbrust mit Champignonrahmsauce",
                   "allergens": [
                     "G",
                     "a",
@@ -3309,13 +3309,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Gnocchi",
+                  "title": "Mischgemüse",
                   "allergens": [
-                    "V",
-                    "c",
-                    "1"
+                    "VG"
                   ],
-                  "allergensRaw": "V,c,1",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -3331,13 +3329,13 @@
                   "highlight": false
                 },
                 {
-                  "title": "Gnocchi",
+                  "title": "Kartoffelplätzchen",
                   "allergens": [
                     "V",
-                    "c",
-                    "1"
+                    "a",
+                    "a1"
                   ],
-                  "allergensRaw": "V,c,1",
+                  "allergensRaw": "V,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -3419,6 +3417,33 @@
             }
           },
           "categories": [
+            {
+              "title": "Grill",
+              "meals": [
+                {
+                  "title": "Schweinegeschnetzeltes in Honig- Senfsauce dazu Reis",
+                  "allergens": [
+                    "S",
+                    "g",
+                    "j"
+                  ],
+                  "allergensRaw": "S,g,j",
+                  "price": {
+                    "raw": "4,60 € / 6,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.6,
+                      6.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
             {
               "title": "Wok",
               "meals": [
@@ -3614,13 +3639,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -3631,13 +3657,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -3681,15 +3707,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Farmersalat",
+                  "title": "Karottensalat",
                   "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "i",
-                    "j"
+                    "VG",
+                    "2"
                   ],
-                  "allergensRaw": "V,c,g,i,j",
+                  "allergensRaw": "VG,2",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3705,12 +3728,14 @@
                   "highlight": false
                 },
                 {
-                  "title": "Karottensalat",
+                  "title": "Kartoffelsalat mit Ei",
                   "allergens": [
-                    "VG",
-                    "2"
+                    "V",
+                    "c",
+                    "j",
+                    "5"
                   ],
-                  "allergensRaw": "VG,2",
+                  "allergensRaw": "V,c,j,5",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3754,14 +3779,34 @@
                   "highlight": false
                 },
                 {
-                  "title": "Nutellacreme",
+                  "title": "Karamell-Sahnepudding",
                   "allergens": [
-                    "f",
+                    "V",
                     "g",
-                    "h",
-                    "h2"
+                    "1"
                   ],
-                  "allergensRaw": "f,g,h,h2",
+                  "allergensRaw": "V,g,1",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3847,7 +3892,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Grünkohl-Hanf Burger (A,VG,a,a1,a3,f,j,l,1,5)",
+                  "title": "Grünkohl-Hanf Burger mit Country cubs (A,VG,a,a1,a3,f,j,l,1,5)",
                   "allergens": [
                     "A",
                     "VG",
@@ -3912,7 +3957,7 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Bratapfel mit Vanillesauce",
+                  "title": "Dessertkirschen mit Vanillesauce",
                   "allergens": [
                     "V",
                     "f",
@@ -3974,7 +4019,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Soja Gulaschtopf(VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
@@ -4395,7 +4440,7 @@
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Lachsfilet mit Zitronensauce dazu Rosmarinkartoffeln und Buntes Gemüse",
+                  "title": "Seelachsfilet paniert mit Zitronensauce dazu Rosmarinkartoffeln und Buntes Gemüse",
                   "allergens": [
                     "F",
                     "a",
@@ -4405,11 +4450,42 @@
                   ],
                   "allergensRaw": "F,a,a1,d,g",
                   "price": {
-                    "raw": "8,50 € / 11,90 €",
+                    "raw": "7,50 € / 10,30 €",
                     "currency": "EUR",
                     "values": [
-                      8.5,
-                      11.9
+                      7.5,
+                      10.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Wok",
+              "meals": [
+                {
+                  "title": "Bauerntopf mit Paprika und Kartoffeln dazu Reis",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a3",
+                    "f",
+                    "l",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "VG,a,a3,f,l,3,5",
+                  "price": {
+                    "raw": "4,30 € / 6,10 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.3,
+                      6.1
                     ],
                     "labels": [
                       "students",
@@ -4585,13 +4661,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -4602,13 +4679,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",

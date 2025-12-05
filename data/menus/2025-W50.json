@@ -5,7 +5,7 @@
     "from": "2025-12-08",
     "to": "2025-12-12"
   },
-  "generatedAt": "2025-12-04T05:35:14.810Z",
+  "generatedAt": "2025-12-05T05:35:16.841Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -2202,13 +2202,10 @@
                   "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
-                    "a",
-                    "a1",
-                    "c",
                     "g",
                     "1"
                   ],
-                  "allergensRaw": "V,a,a1,c,g,1",
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2673,6 +2670,37 @@
         "2025-12-11": {
           "label": "Do, 11.12.",
           "categories": [
+            {
+              "title": "Grill",
+              "meals": [
+                {
+                  "title": "Entenkeule mit Rotkohl und Klöße",
+                  "allergens": [
+                    "G",
+                    "a",
+                    "a1",
+                    "a3",
+                    "f",
+                    "i",
+                    "9"
+                  ],
+                  "allergensRaw": "G,a,a1,a3,f,i,9",
+                  "price": {
+                    "raw": "6,90 € / 8,90 €",
+                    "currency": "EUR",
+                    "values": [
+                      6.9,
+                      8.9
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
             {
               "title": "Wok",
               "meals": [
