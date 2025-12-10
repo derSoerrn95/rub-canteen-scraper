@@ -5,7 +5,7 @@
     "from": "2025-12-08",
     "to": "2025-12-12"
   },
-  "generatedAt": "2025-12-09T05:35:14.895Z",
+  "generatedAt": "2025-12-10T05:36:56.766Z",
   "days": {
     "2025-12-08": {
       "label": "Mo, 08.12.",
@@ -1194,22 +1194,18 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Cevapcici vom Rind mit Tzatziki",
+                  "title": "Hähnchengyros mit Tsatzik",
                   "allergens": [
-                    "R",
-                    "a",
-                    "a1",
-                    "c",
-                    "g",
-                    "j"
+                    "G",
+                    "g"
                   ],
-                  "allergensRaw": "R,a,a1,c,g,j",
+                  "allergensRaw": "G,g",
                   "price": {
-                    "raw": "3,50 € / 5,60 €",
+                    "raw": "2,00 € / 3,00 €",
                     "currency": "EUR",
                     "values": [
-                      3.5,
-                      5.6
+                      2,
+                      3
                     ],
                     "labels": [
                       "students",
@@ -1285,7 +1281,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Tomatensauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -1371,7 +1367,27 @@
                   "highlight": false
                 },
                 {
-                  "title": "Djuvec-Reis",
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Reis",
                   "allergens": [
                     "VG"
                   ],
@@ -1471,12 +1487,10 @@
                     "f",
                     "g",
                     "i",
-                    "l",
                     "2",
-                    "3",
-                    "5"
+                    "3"
                   ],
-                  "allergensRaw": "A,S,a,a1,a3,f,g,i,l,2,3,5",
+                  "allergensRaw": "A,S,a,a1,a3,f,g,i,2,3",
                   "price": {
                     "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
@@ -1695,13 +1709,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -1712,13 +1727,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -1807,6 +1822,48 @@
               "title": "Dessert",
               "meals": [
                 {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Vanillepudding mit roter Grütze",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
@@ -1817,50 +1874,6 @@
                     "1"
                   ],
                   "allergensRaw": "V,a,a1,c,g,1",
-                  "price": {
-                    "raw": "1,40 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.4,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "lauwarmer Apfelcrumble",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "g",
-                    "3"
-                  ],
-                  "allergensRaw": "V,a,a1,g,3",
-                  "price": {
-                    "raw": "1,40 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.4,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "Himbeer- Frucht- Mousse",
-                  "allergens": [
-                    "g"
-                  ],
-                  "allergensRaw": "g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -1946,7 +1959,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Hot Dog mit Steak fries, Harissa Dip und Karottensalat (VG,a,a1,f,j,1,2,9)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -2062,7 +2075,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Zwiebelsuppe (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
