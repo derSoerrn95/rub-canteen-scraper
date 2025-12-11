@@ -5,7 +5,7 @@
     "from": "2025-12-08",
     "to": "2025-12-12"
   },
-  "generatedAt": "2025-12-10T05:36:56.766Z",
+  "generatedAt": "2025-12-11T05:40:15.612Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -726,23 +726,22 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Schweineschnitzel mit Pfefferrahmsauce",
+                  "title": "Hoki-Fischfilet mit Pfefferrahmsauce",
                   "allergens": [
-                    "S",
+                    "F",
                     "a",
                     "a1",
-                    "a3",
-                    "c",
                     "f",
-                    "i"
+                    "g",
+                    "j"
                   ],
-                  "allergensRaw": "S,a,a1,a3,c,f,i",
+                  "allergensRaw": "F,a,a1,f,g,j",
                   "price": {
-                    "raw": "2,70 € / 5,00 €",
+                    "raw": "3,00 € / 5,20 €",
                     "currency": "EUR",
                     "values": [
-                      2.7,
-                      5
+                      3,
+                      5.2
                     ],
                     "labels": [
                       "students",
@@ -818,7 +817,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo, Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -851,15 +850,14 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Kaiserschmarrn mit Zimt & Zucker und Apfelkompott",
+                  "title": "Schupfnudel Gemüsepfanne",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
-                    "c",
-                    "g"
+                    "c"
                   ],
-                  "allergensRaw": "V,a,a1,c,g",
+                  "allergensRaw": "V,a,a1,c",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -900,11 +898,55 @@
                   "highlight": false
                 },
                 {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Salzkartoffeln",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Eierspätzle",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c",
+                    "1"
+                  ],
+                  "allergensRaw": "V,a,a1,c,1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2589,13 +2631,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "j",
@@ -2606,13 +2649,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2679,14 +2722,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Cole-Slaw-Salat",
+                  "title": "Krautsalat klar",
                   "allergens": [
-                    "V",
-                    "c",
-                    "g",
+                    "VG",
                     "j"
                   ],
-                  "allergensRaw": "V,c,g,j",
+                  "allergensRaw": "VG,j",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2706,6 +2747,27 @@
             {
               "title": "Dessert",
               "meals": [
+                {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
                 {
                   "title": "Schwarzwälder Creme",
                   "allergens": [
@@ -2733,12 +2795,16 @@
                   "highlight": false
                 },
                 {
-                  "title": "Waldfrucht Pudding",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
-                    "g"
+                    "a",
+                    "a1",
+                    "c",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "V,a,a1,c,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -4013,7 +4079,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Asiatopf(VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
