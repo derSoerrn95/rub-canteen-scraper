@@ -5,7 +5,7 @@
     "from": "2025-12-15",
     "to": "2025-12-19"
   },
-  "generatedAt": "2025-12-17T05:38:39.553Z",
+  "generatedAt": "2025-12-18T05:39:50.047Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -706,26 +706,23 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Rindergeschnetzeltes \"Stroganoff\"",
+                  "title": "Backfisch (Seelachs) mit Remouladensauce",
                   "allergens": [
-                    "R",
+                    "F",
                     "a",
                     "a1",
-                    "a3",
-                    "f",
-                    "g",
-                    "i",
+                    "d",
                     "j",
-                    "3",
+                    "1",
                     "9"
                   ],
-                  "allergensRaw": "R,a,a1,a3,f,g,i,j,3,9",
+                  "allergensRaw": "F,a,a1,d,j,1,9",
                   "price": {
-                    "raw": "3,40 € / 4,90 €",
+                    "raw": "3,10 € / 5,50 €",
                     "currency": "EUR",
                     "values": [
-                      3.4,
-                      4.9
+                      3.1,
+                      5.5
                     ],
                     "labels": [
                       "students",
@@ -837,9 +834,14 @@
                   "title": "Chili sin Carne",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "a2",
+                    "a3",
+                    "f",
                     "2"
                   ],
-                  "allergensRaw": "VG,2",
+                  "allergensRaw": "VG,a,a1,a2,a3,f,2",
                   "price": {
                     "raw": "2,50 € / 3,70 €",
                     "currency": "EUR",
@@ -881,6 +883,26 @@
                   "highlight": false
                 },
                 {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Spätzle",
                   "allergens": [
                     "V",
@@ -889,6 +911,48 @@
                     "c"
                   ],
                   "allergensRaw": "V,a,a1,c",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Reis",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Penne Rigate",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2275,7 +2339,7 @@
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Hähnchenschnitzel mit Kartoffelsalat",
+                  "title": "Hähnchenschnitzel mit Kroketten",
                   "allergens": [
                     "G",
                     "a",
@@ -2337,7 +2401,7 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Tortellini mit Gemüse und Gouda überbacken",
+                  "title": "Tortellini mit Gemüse und Gouda überbacken / Hirtenpfanne / Spätzle Pilz Pfanne",
                   "allergens": [
                     "V",
                     "a",
@@ -2498,13 +2562,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2516,13 +2581,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2613,6 +2678,47 @@
                     "g"
                   ],
                   "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Milchreis mit Zimt",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Zimtcreme",
+                  "allergens": [
+                    "g"
+                  ],
+                  "allergensRaw": "g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3843,7 +3949,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Käse- Brokkoli Creme (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
