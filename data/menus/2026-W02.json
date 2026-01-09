@@ -5,7 +5,7 @@
     "from": "2026-01-05",
     "to": "2026-01-09"
   },
-  "generatedAt": "2026-01-08T05:42:15.339Z",
+  "generatedAt": "2026-01-09T05:42:47.558Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -933,7 +933,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Lachssteak gegrillt mit Safransauce,winterlichem Gemüse und Wildreis",
+                  "title": "Lachssteak gegrillt mit Schnittlauchsauce ,winterlichem Gemüse und Wildreis",
                   "allergens": [
                     "F",
                     "d",
@@ -1079,7 +1079,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Tomatensauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -1112,7 +1112,7 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Bami Goreng",
+                  "title": "Bami Goreng Vegan",
                   "allergens": [
                     "VG",
                     "a",
@@ -1146,6 +1146,26 @@
                     "f"
                   ],
                   "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2769,6 +2789,36 @@
           "label": "Do, 08.01.",
           "categories": [
             {
+              "title": "Grill",
+              "meals": [
+                {
+                  "title": "Backkartoffel mit Kräuterquark und Salat",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "g",
+                    "f",
+                    "i"
+                  ],
+                  "allergensRaw": "V,a,a1,g,f,i",
+                  "price": {
+                    "raw": "4,30 € / 6,10 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.3,
+                      6.1
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Wok",
               "meals": [
                 {
@@ -2875,18 +2925,15 @@
                   "highlight": false
                 },
                 {
-                  "title": "Pizza \"Hawaii\" mit Schinken und Ananas",
+                  "title": "Pizza \"Pirata\" mit Hackfleischsauce",
                   "allergens": [
-                    "S",
+                    "R",
                     "a",
                     "a1",
                     "a3",
-                    "g",
-                    "2",
-                    "3",
-                    "8"
+                    "g"
                   ],
-                  "allergensRaw": "S,a,a1,a3,g,2,3,8",
+                  "allergensRaw": "R,a,a1,a3,g",
                   "price": {
                     "raw": "4,20 € / 6,10 €",
                     "currency": "EUR",
@@ -2963,13 +3010,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2981,13 +3029,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -3034,15 +3082,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Farmersalat",
+                  "title": "Bohnensalat",
                   "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "i",
-                    "j"
+                    "VG",
+                    "f"
                   ],
-                  "allergensRaw": "V,c,g,i,j",
+                  "allergensRaw": "VG,f",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3084,14 +3129,16 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Grießpudding mit Roter Grütze",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
-                    "g"
+                    "c",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "V,a,a1,g",
+                  "allergensRaw": "V,a,a1,c,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3112,6 +3159,27 @@
                     "g"
                   ],
                   "allergensRaw": "g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Waldfrucht Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -4126,7 +4194,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Kohl-Karottencreme",
                   "allergens": [
                     "VG",
                     "f",
