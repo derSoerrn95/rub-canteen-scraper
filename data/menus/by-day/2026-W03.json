@@ -5,7 +5,7 @@
     "from": "2026-01-12",
     "to": "2026-01-16"
   },
-  "generatedAt": "2026-01-12T05:46:24.166Z",
+  "generatedAt": "2026-01-13T05:42:33.185Z",
   "days": {
     "2026-01-12": {
       "label": "Mo, 12.01.",
@@ -135,19 +135,24 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Fruchtiges Hähnchencurry",
+                  "title": "Seelachs mit Gurken Meerrettichsauce",
                   "allergens": [
-                    "G",
+                    "F",
+                    "a",
+                    "a1",
+                    "d",
                     "g",
-                    "2"
+                    "l",
+                    "3",
+                    "5"
                   ],
-                  "allergensRaw": "G,g,2",
+                  "allergensRaw": "F,a,a1,d,g,l,3,5",
                   "price": {
-                    "raw": "3,50 € / 4,90 €",
+                    "raw": "2,70 € / 5,00 €",
                     "currency": "EUR",
                     "values": [
-                      3.5,
-                      4.9
+                      2.7,
+                      5
                     ],
                     "labels": [
                       "students",
@@ -223,7 +228,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo, Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -304,11 +309,53 @@
                   "highlight": false
                 },
                 {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Kräuterreis",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Penne Rigate",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -615,13 +662,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -633,13 +681,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -686,29 +734,6 @@
                   "highlight": false
                 },
                 {
-                  "title": "Cole-Slaw-Salat",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "j"
-                  ],
-                  "allergensRaw": "V,c,g,j",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
                   "title": "Karottensalat",
                   "allergens": [
                     "VG",
@@ -728,12 +753,54 @@
                     ]
                   },
                   "highlight": false
+                },
+                {
+                  "title": "Gurkensalat",
+                  "allergens": [
+                    "VG",
+                    "j"
+                  ],
+                  "allergensRaw": "VG,j",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
                 }
               ]
             },
             {
               "title": "Dessert",
               "meals": [
+                {
+                  "title": "Panna Cotta Pudding mit Kirschen",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
                 {
                   "title": "Vanillepudding mit roter Grütze",
                   "allergens": [
@@ -756,12 +823,13 @@
                   "highlight": false
                 },
                 {
-                  "title": "Obstsalat",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
-                    "VG",
-                    "3"
+                    "V",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "VG,3",
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -960,7 +1028,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Brokkoli- Kokos Topf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
