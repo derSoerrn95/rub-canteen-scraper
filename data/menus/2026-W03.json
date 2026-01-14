@@ -5,7 +5,7 @@
     "from": "2026-01-12",
     "to": "2026-01-16"
   },
-  "generatedAt": "2026-01-13T05:42:33.185Z",
+  "generatedAt": "2026-01-14T05:42:15.008Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -440,16 +440,14 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Cevapcici vom Rind mit Tzatziki",
+                  "title": "Hähnchenbrust mit Tomatensauce",
                   "allergens": [
-                    "R",
+                    "G",
                     "a",
                     "a1",
-                    "c",
-                    "g",
-                    "j"
+                    "i"
                   ],
-                  "allergensRaw": "R,a,a1,c,g,j",
+                  "allergensRaw": "G,a,a1,i",
                   "price": {
                     "raw": "3,50 € / 5,60 €",
                     "currency": "EUR",
@@ -617,11 +615,33 @@
                   "highlight": false
                 },
                 {
-                  "title": "Djuvec-Reis",
+                  "title": "Mischgemüse",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Penne Rigate",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2143,13 +2163,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2161,13 +2182,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2214,7 +2235,7 @@
                   "highlight": false
                 },
                 {
-                  "title": "Rote Bete Salat",
+                  "title": "Chinakohlsalat",
                   "allergens": [
                     "VG"
                   ],
@@ -2234,11 +2255,15 @@
                   "highlight": false
                 },
                 {
-                  "title": "Chinakohlsalat",
+                  "title": "Mexiko Salat",
                   "allergens": [
-                    "VG"
+                    "V",
+                    "c",
+                    "g",
+                    "j",
+                    "9"
                   ],
-                  "allergensRaw": "VG",
+                  "allergensRaw": "V,c,g,j,9",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2259,13 +2284,12 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Schokoladenpudding mit Vanillesauce",
+                  "title": "Panna Cotta Pudding mit Kirschen",
                   "allergens": [
                     "V",
-                    "g",
-                    "1"
+                    "g"
                   ],
-                  "allergensRaw": "V,g,1",
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2281,11 +2305,34 @@
                   "highlight": false
                 },
                 {
-                  "title": "Oreocreme",
+                  "title": "Vanillepudding mit roter Grütze",
                   "allergens": [
+                    "V",
                     "g"
                   ],
-                  "allergensRaw": "g",
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Schokoladenpudding mit Vanillesauce",
+                  "allergens": [
+                    "V",
+                    "g",
+                    "1"
+                  ],
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3659,7 +3706,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Burritos mit Reis und Bohnen (VG,a,a1,1) Country Cubes (VG,a,a1,1)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -3728,11 +3775,11 @@
                   ],
                   "allergensRaw": "VG,f",
                   "price": {
-                    "raw": "1,70 € / 2,20 €",
+                    "raw": "1,80 € / 2,40 €",
                     "currency": "EUR",
                     "values": [
-                      1.7,
-                      2.2
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -3757,11 +3804,11 @@
                   ],
                   "allergensRaw": "VG,a,a1,f,1",
                   "price": {
-                    "raw": "2,00 € / 2,50 €",
+                    "raw": "2,10 € / 2,70 €",
                     "currency": "EUR",
                     "values": [
-                      2,
-                      2.5
+                      2.1,
+                      2.7
                     ],
                     "labels": [
                       "students",
@@ -3776,7 +3823,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Champignon Creme (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
