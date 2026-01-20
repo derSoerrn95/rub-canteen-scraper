@@ -5,7 +5,7 @@
     "from": "2026-01-19",
     "to": "2026-01-23"
   },
-  "generatedAt": "2026-01-19T05:48:30.279Z",
+  "generatedAt": "2026-01-20T05:46:33.847Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -77,18 +77,21 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Good Life Bowl",
+                  "title": "Kürbis-Kichererbsen-Bowl Planet Power",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "a3",
                     "k"
                   ],
-                  "allergensRaw": "VG,k",
+                  "allergensRaw": "VG,a,a1,a3,k",
                   "price": {
-                    "raw": "5,50 € / 6,50 €",
+                    "raw": "4,50 € / 5,90 €",
                     "currency": "EUR",
                     "values": [
-                      5.5,
-                      6.5
+                      4.5,
+                      5.9
                     ],
                     "labels": [
                       "students",
@@ -116,11 +119,11 @@
                   ],
                   "allergensRaw": "V,a,a1,a4,g,h,h1,h2",
                   "price": {
-                    "raw": "1,80 € / 2,80 €",
+                    "raw": "2,20 € / 4,20 €",
                     "currency": "EUR",
                     "values": [
-                      1.8,
-                      2.8
+                      2.2,
+                      4.2
                     ],
                     "labels": [
                       "students",
@@ -135,18 +138,23 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Putensteak mit Curry-Schmand",
+                  "title": "Paniertes Schollenfilet mit Curry-Schmand",
                   "allergens": [
-                    "G",
-                    "g"
+                    "F",
+                    "a",
+                    "a1",
+                    "d",
+                    "f",
+                    "g",
+                    "j"
                   ],
-                  "allergensRaw": "G,g",
+                  "allergensRaw": "F,a,a1,d,f,g,j",
                   "price": {
-                    "raw": "3,40 € / 5,60 €",
+                    "raw": "2,80 € / 5,10 €",
                     "currency": "EUR",
                     "values": [
-                      3.4,
-                      5.6
+                      2.8,
+                      5.1
                     ],
                     "labels": [
                       "students",
@@ -222,7 +230,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -305,11 +313,76 @@
                   "highlight": false
                 },
                 {
+                  "title": "Mischgemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Tomatenreis",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Türkischer Reis",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,a,a1,1",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Penne Rigate",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -484,7 +557,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -738,7 +811,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -997,7 +1070,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -1258,7 +1331,7 @@
               "title": "Nudeltheke",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo (VG f i) Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
                   "allergens": [
                     "V",
                     "a",
@@ -1660,13 +1733,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -1678,13 +1752,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -1780,6 +1854,27 @@
               "title": "Dessert",
               "meals": [
                 {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Vanillepudding mit roter Grütze",
                   "allergens": [
                     "V",
@@ -1801,12 +1896,13 @@
                   "highlight": false
                 },
                 {
-                  "title": "Obstsalat",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
-                    "VG",
-                    "3"
+                    "V",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "VG,3",
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3529,7 +3625,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Asiatischer Bandnudeltopf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
