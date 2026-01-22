@@ -5,7 +5,7 @@
     "from": "2026-01-19",
     "to": "2026-01-23"
   },
-  "generatedAt": "2026-01-21T05:45:37.182Z",
+  "generatedAt": "2026-01-22T05:47:05.549Z",
   "days": {
     "2026-01-19": {
       "label": "Mo, 19.01.",
@@ -2155,7 +2155,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Linsen-Kokos-Dal mit Wintergemüse",
+                  "title": "Linsen-Kokos-Dal mit Wintergemüse und Basmatireis",
                   "allergens": [
                     "VG"
                   ],
@@ -2180,7 +2180,7 @@
               "title": "Vegetarische Menükomponente",
               "meals": [
                 {
-                  "title": "Knusperkroketten \"Gärtnerin\" mit Tomatensauce",
+                  "title": "Knusperkroketten &quot;Gärtnerin&quot; mit Tomatensauce",
                   "allergens": [
                     "VG",
                     "a",
@@ -2359,6 +2359,26 @@
               "meals": [
                 {
                   "title": "Italienisches Gemüse [Zucchini, Paprika, Champignons, Bohnen, Oliven]",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Mischgemüse",
                   "allergens": [
                     "VG"
                   ],
@@ -2693,13 +2713,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2711,13 +2732,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2731,6 +2752,52 @@
             {
               "title": "Beilagen",
               "meals": [
+                {
+                  "title": "Gurken-Rahm-Salat",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "j",
+                    "2"
+                  ],
+                  "allergensRaw": "V,c,f,g,j,2",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Gurkensalat",
+                  "allergens": [
+                    "VG",
+                    "j"
+                  ],
+                  "allergensRaw": "VG,j",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
                 {
                   "title": "Babyspinat mit Hirtenkäse und Walnuss",
                   "allergens": [
@@ -2764,50 +2831,6 @@
                     ]
                   },
                   "highlight": false
-                },
-                {
-                  "title": "Bohnensalat",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "Cole-Slaw-Salat",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "j"
-                  ],
-                  "allergensRaw": "V,c,g,j",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
                 }
               ]
             },
@@ -2815,17 +2838,12 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Schwarzwälder Creme",
+                  "title": "Panna Cotta Pudding mit Kirschen",
                   "allergens": [
                     "V",
-                    "a",
-                    "a1",
-                    "c",
-                    "f",
-                    "g",
-                    "2"
+                    "g"
                   ],
-                  "allergensRaw": "V,a,a1,c,f,g,2",
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2841,12 +2859,35 @@
                   "highlight": false
                 },
                 {
-                  "title": "Waldfrucht Pudding",
+                  "title": "Schokoladenpudding mit Vanillesauce",
                   "allergens": [
                     "V",
-                    "g"
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "V,g,1",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Karamell-Sahnepudding",
+                  "allergens": [
+                    "V",
+                    "g",
+                    "1"
+                  ],
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2932,7 +2973,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Linsen-Kokos-Dal mit Wintergemüse (VG)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG"
                   ],
@@ -3046,7 +3087,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Kohlrabirahmsuppe (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
@@ -3181,11 +3222,11 @@
                   ],
                   "allergensRaw": "V,g",
                   "price": {
-                    "raw": "1,80 € / 2,80 €",
+                    "raw": "2,50 € / 4,30 €",
                     "currency": "EUR",
                     "values": [
-                      1.8,
-                      2.8
+                      2.5,
+                      4.3
                     ],
                     "labels": [
                       "students",
