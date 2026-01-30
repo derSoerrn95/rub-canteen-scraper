@@ -5,7 +5,7 @@
     "from": "2026-01-26",
     "to": "2026-01-30"
   },
-  "generatedAt": "2026-01-29T05:59:06.841Z",
+  "generatedAt": "2026-01-30T06:01:36.864Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -879,11 +879,11 @@
                   ],
                   "allergensRaw": "V,a,a1,a3,f,g,l,2,3,5",
                   "price": {
-                    "raw": "4,20 € / 5,20 €",
+                    "raw": "3,50 € / 5,00 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      5.2
+                      3.5,
+                      5
                     ],
                     "labels": [
                       "students",
@@ -916,36 +916,6 @@
                     "values": [
                       2.7,
                       4.9
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Hacksteak mit Weißkäsecreme",
-                  "allergens": [
-                    "R",
-                    "a",
-                    "a1",
-                    "c",
-                    "g",
-                    "j"
-                  ],
-                  "allergensRaw": "R,a,a1,c,g,j",
-                  "price": {
-                    "raw": "3,60 € / 5,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.6,
-                      5.7
                     ],
                     "labels": [
                       "students",
@@ -1053,7 +1023,7 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Steckrüben Rote Bete Curry mit Basmatireis",
+                  "title": "Steckrüben Rote Bete Curry mit Reis",
                   "allergens": [
                     "VG",
                     "a",
@@ -1084,6 +1054,26 @@
               "meals": [
                 {
                   "title": "Prinzessbohnen",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Mischgemüse",
                   "allergens": [
                     "VG"
                   ],
@@ -2727,6 +2717,36 @@
           "label": "Do, 29.01.",
           "categories": [
             {
+              "title": "Grill",
+              "meals": [
+                {
+                  "title": "Käsespätzle mit Röstzwiebeln",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "a5",
+                    "c",
+                    "g"
+                  ],
+                  "allergensRaw": "V,a,a1,a5,c,g",
+                  "price": {
+                    "raw": "3,90 € / 4,90 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.9,
+                      4.9
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Wok",
               "meals": [
                 {
@@ -2921,13 +2941,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Bunter Salat mit Dressing nach Wahl Topping : Gouda oder Thunfisch",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2939,13 +2960,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2992,15 +3013,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Farmersalat",
+                  "title": "Karottensalat",
                   "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "i",
-                    "j"
+                    "VG",
+                    "2"
                   ],
-                  "allergensRaw": "V,c,g,i,j",
+                  "allergensRaw": "VG,2",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3016,12 +3034,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Karottensalat",
+                  "title": "Chinakohlsalat",
                   "allergens": [
-                    "VG",
-                    "2"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,2",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3065,14 +3082,34 @@
                   "highlight": false
                 },
                 {
-                  "title": "Nutellacreme",
+                  "title": "Vanillepudding mit roter Grütze",
                   "allergens": [
-                    "f",
-                    "g",
-                    "h",
-                    "h2"
+                    "V",
+                    "g"
                   ],
-                  "allergensRaw": "f,g,h,h2",
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Schokoladenpudding mit Vanillesauce",
+                  "allergens": [
+                    "V",
+                    "g",
+                    "1"
+                  ],
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -4082,7 +4119,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Wirsing-Kartoffeltopf mit Bohnen (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
