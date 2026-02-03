@@ -5,7 +5,7 @@
     "from": "2026-02-02",
     "to": "2026-02-06"
   },
-  "generatedAt": "2026-02-02T06:14:05.613Z",
+  "generatedAt": "2026-02-03T06:06:18.479Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -138,16 +138,17 @@
                   "title": "Putensteak mit Paprikasauce",
                   "allergens": [
                     "G",
+                    "f",
                     "2",
                     "9"
                   ],
-                  "allergensRaw": "G,2,9",
+                  "allergensRaw": "G,f,2,9",
                   "price": {
-                    "raw": "1,60 € / 2,60 €",
+                    "raw": "2,60 € / 4,60 €",
                     "currency": "EUR",
                     "values": [
-                      1.6,
-                      2.6
+                      2.6,
+                      4.6
                     ],
                     "labels": [
                       "students",
@@ -255,7 +256,7 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Tortellini-Auflauf mit Gemüse",
+                  "title": "Penne Quattro Formaggio",
                   "allergens": [
                     "V",
                     "a",
@@ -284,13 +285,11 @@
               "title": "Beilage",
               "meals": [
                 {
-                  "title": "Mandelbrokkoli",
+                  "title": "Brokkoli",
                   "allergens": [
-                    "VG",
-                    "h",
-                    "h1"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,h,h1",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -1687,13 +1686,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Thunfisch Gouda Bunter Salat mit Dressing nach Wahl Topping :",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -1705,13 +1705,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -1813,6 +1813,28 @@
                     "g"
                   ],
                   "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Karamell-Sahnepudding",
+                  "allergens": [
+                    "V",
+                    "g",
+                    "1"
+                  ],
+                  "allergensRaw": "V,g,1",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3447,7 +3469,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Leider Ausverkauft!!!",
+                  "title": "Gefüllte Dönertasche mit Falafel und Salat dazu Steak fries (VG,a,a1,a3,j,k)",
                   "allergens": [
                     "VG",
                     "a",
