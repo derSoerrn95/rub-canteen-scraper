@@ -5,7 +5,7 @@
     "from": "2026-02-02",
     "to": "2026-02-06"
   },
-  "generatedAt": "2026-02-03T06:06:18.479Z",
+  "generatedAt": "2026-02-04T06:03:54.855Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -338,7 +338,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Orientalische Hähnchenkeule mit Couscous ,eingelegte Paprika dazu Minz-Joghurt-Dip",
+                  "title": "Orientalische Hähnchenkeule mit Couscous ,Mais-Paprika Gemüse dazu Minz-Joghurt-Dip",
                   "allergens": [
                     "G",
                     "a",
@@ -394,21 +394,24 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Köfte mit Tzatziki",
+                  "title": "Hähnchen-Cordon Bleu mit Champignonrahmsauce",
                   "allergens": [
-                    "R",
+                    "G",
                     "a",
                     "a1",
                     "c",
-                    "g"
+                    "g",
+                    "i",
+                    "2",
+                    "3"
                   ],
-                  "allergensRaw": "R,a,a1,c,g",
+                  "allergensRaw": "G,a,a1,c,g,i,2,3",
                   "price": {
-                    "raw": "2,90 € / 4,90 €",
+                    "raw": "2,80 € / 4,80 €",
                     "currency": "EUR",
                     "values": [
-                      2.9,
-                      4.9
+                      2.8,
+                      4.8
                     ],
                     "labels": [
                       "students",
@@ -516,14 +519,18 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Casa España  Würziger Bohneneintopf",
+                  "title": "Casa España  Würziger Bohneneintopf mit Brötchen",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "a2",
+                    "a3",
                     "l",
                     "3",
                     "5"
                   ],
-                  "allergensRaw": "VG,l,3,5",
+                  "allergensRaw": "VG,a,a1,a2,a3,l,3,5",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -565,11 +572,33 @@
                   "highlight": false
                 },
                 {
-                  "title": "Tomatenreis",
+                  "title": "Mischgemüse",
                   "allergens": [
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Türkischer Reis",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1"
+                  ],
+                  "allergensRaw": "VG,a,a1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -2111,13 +2140,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Gouda Thunfisch Bunter Salat mit Dressing nach Wahl Topping :",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2129,13 +2159,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2234,6 +2264,27 @@
                     "1"
                   ],
                   "allergensRaw": "V,g,1",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Pfirsich Aprikosen Pudding",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3614,7 +3665,7 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Grünkohltopf mit Würstchen (VG,a,a1,f,i,j,l,1,3,5) knusprige Röstkartoffeln (VG,1)",
+                  "title": "Leider Ausverkauft!!!",
                   "allergens": [
                     "VG",
                     "a",
@@ -3683,11 +3734,11 @@
                   ],
                   "allergensRaw": "VG,f,h,h7",
                   "price": {
-                    "raw": "1,70 € / 2,20 €",
+                    "raw": "1,80 € / 2,40 €",
                     "currency": "EUR",
                     "values": [
-                      1.7,
-                      2.2
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
