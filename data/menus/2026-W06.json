@@ -5,7 +5,7 @@
     "from": "2026-02-02",
     "to": "2026-02-06"
   },
-  "generatedAt": "2026-02-04T06:03:54.855Z",
+  "generatedAt": "2026-02-05T06:10:31.832Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -655,16 +655,47 @@
               "title": "Vegetarische Menükomponente",
               "meals": [
                 {
-                  "title": "Sellerie Knusperschnitzel mit Pilzrahmsauce",
+                  "title": "Sellerie Knusperschnitzel mit Minz Dip",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
                     "g",
+                    "f",
                     "i",
                     "3"
                   ],
-                  "allergensRaw": "V,a,a1,g,i,3",
+                  "allergensRaw": "V,a,a1,g,f,i,3",
+                  "price": {
+                    "raw": "2,20 € / 4,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.2,
+                      4.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Komponentenessen",
+              "meals": [
+                {
+                  "title": "Hähnchenkeule mit Pilzrahmsauce",
+                  "allergens": [
+                    "G",
+                    "a",
+                    "a1",
+                    "g",
+                    "2",
+                    "3"
+                  ],
+                  "allergensRaw": "G,a,a1,g,2,3",
                   "price": {
                     "raw": "1,80 € / 2,80 €",
                     "currency": "EUR",
@@ -682,40 +713,10 @@
               ]
             },
             {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Hähnchen-Cordon Bleu mit Pilzrahmsauce",
-                  "allergens": [
-                    "G",
-                    "a",
-                    "a1",
-                    "g",
-                    "2",
-                    "3"
-                  ],
-                  "allergensRaw": "G,a,a1,g,2,3",
-                  "price": {
-                    "raw": "2,80 € / 4,80 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.8,
-                      4.8
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Döner",
               "meals": [
                 {
-                  "title": "Hähnchendöner mit Pommes und Salat",
+                  "title": "Hähnchendöner mit Pommes oder Reis und Salat",
                   "allergens": [
                     "G",
                     "H",
@@ -857,12 +858,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Kartoffel-Gratin",
+                  "title": "Mischgemüse",
                   "allergens": [
-                    "V",
-                    "g"
+                    "VG"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -878,12 +878,35 @@
                   "highlight": false
                 },
                 {
-                  "title": "Kartoffel-Gratin",
+                  "title": "Gemüsereis",
                   "allergens": [
-                    "V",
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Gnocchi",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "c",
                     "g"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "VG,a,a1,c,g",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -975,11 +998,11 @@
                   ],
                   "allergensRaw": "S,a,a1,j,8",
                   "price": {
-                    "raw": "1,60 € / 2,60 €",
+                    "raw": "2,80 € / 4,30 €",
                     "currency": "EUR",
                     "values": [
-                      1.6,
-                      2.6
+                      2.8,
+                      4.3
                     ],
                     "labels": [
                       "students",
@@ -2551,13 +2574,14 @@
               "title": "Salatteller",
               "meals": [
                 {
-                  "title": "Bunter Salat mit Dressing nach Wahl Topping :",
+                  "title": "Gouda Thunfisch Bunter Salat mit Dressing nach Wahl Topping :",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
                     "c",
+                    "d",
                     "f",
                     "g",
                     "i",
@@ -2569,13 +2593,13 @@
                     "5",
                     "9"
                   ],
-                  "allergensRaw": "V,a,a1,a3,c,f,g,i,j,l,1,2,3,5,9",
+                  "allergensRaw": "F,a,a1,a3,c,d,f,g,i,j,l,1,2,3,5,9",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "6,10 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      6.1,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -2624,27 +2648,6 @@
                   "highlight": false
                 },
                 {
-                  "title": "Bohnensalat",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
                   "title": "Cole-Slaw-Salat",
                   "allergens": [
                     "V",
@@ -2666,6 +2669,30 @@
                     ]
                   },
                   "highlight": false
+                },
+                {
+                  "title": "Tomatensalat",
+                  "allergens": [
+                    "V",
+                    "g",
+                    "l",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "V,g,l,3,5",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
                 }
               ]
             },
@@ -2673,17 +2700,32 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Schwarzwälder Creme",
+                  "title": "Kakaocreme",
+                  "allergens": [
+                    "g"
+                  ],
+                  "allergensRaw": "g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Panna Cotta Pudding mit Kirschen",
                   "allergens": [
                     "V",
-                    "a",
-                    "a1",
-                    "c",
-                    "f",
-                    "g",
-                    "2"
+                    "g"
                   ],
-                  "allergensRaw": "V,a,a1,c,f,g,2",
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3927,7 +3969,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,i)",
+                  "title": "Paprika- Schnetzel Topf (VG,f,i)",
                   "allergens": [
                     "VG",
                     "f",
