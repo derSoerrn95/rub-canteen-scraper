@@ -5,7 +5,7 @@
     "from": "2026-02-16",
     "to": "2026-02-20"
   },
-  "generatedAt": "2026-02-11T06:16:25.116Z",
+  "generatedAt": "2026-02-12T06:15:32.781Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -623,16 +623,16 @@
                   "title": "Schnitzel vom Feld mit Zitronen-Aioli",
                   "allergens": [
                     "V",
-                    "c",
+                    "g",
                     "j"
                   ],
-                  "allergensRaw": "V,c,j",
+                  "allergensRaw": "V,g,j",
                   "price": {
-                    "raw": "1,80 € / 2,80 €",
+                    "raw": "2,80 € / 5,00 €",
                     "currency": "EUR",
                     "values": [
-                      1.8,
-                      2.8
+                      2.8,
+                      5
                     ],
                     "labels": [
                       "students",
@@ -1045,11 +1045,11 @@
                   ],
                   "allergensRaw": "VG,a,a1,h,h4,k",
                   "price": {
-                    "raw": "2,50 € / 2,97 €",
+                    "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
                     "values": [
                       2.5,
-                      2.97
+                      4.5
                     ],
                     "labels": [
                       "students",
@@ -3582,21 +3582,23 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Pizza Funghi mit Zwiebeln und Champignons (VG,a,a1,a3,1)",
+                  "title": "Hot Dog mit Steak fries, Harissa Dip und Karottensalat (VG,a,a1,j,1,2,9)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "a3",
-                    "1"
+                    "j",
+                    "1",
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,1",
+                  "allergensRaw": "VG,a,a1,j,1,2,9",
                   "price": {
-                    "raw": "4,50 € / 6,40 €",
+                    "raw": "5,50 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.5,
-                      6.4
+                      5.5,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -3788,15 +3790,13 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Rotweinbirne mit Vanilleschaum",
+                  "title": "Mousse au Chocolat",
                   "allergens": [
-                    "A",
                     "VG",
                     "f",
-                    "l",
-                    "5"
+                    "1"
                   ],
-                  "allergensRaw": "A,VG,f,l,5",
+                  "allergensRaw": "VG,f,1",
                   "price": {
                     "raw": "1,80 € / 2,40 €",
                     "currency": "EUR",
