@@ -5,7 +5,7 @@
     "from": "2026-02-16",
     "to": "2026-02-20"
   },
-  "generatedAt": "2026-02-15T06:08:05.044Z",
+  "generatedAt": "2026-02-16T06:15:06.029Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -77,14 +77,16 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Lahmacun mit knackigem Salat und Tzatziki",
+                  "title": "Lahmacun mit knackigem Salat und Tzatziki dazu türkischer Reis",
                   "allergens": [
-                    "VG",
+                    "V",
                     "a",
                     "a1",
-                    "f"
+                    "f",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "VG,a,a1,f",
+                  "allergensRaw": "V,a,a1,f,g,1",
                   "price": {
                     "raw": "5,20 € / 6,80 €",
                     "currency": "EUR",
@@ -338,14 +340,16 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Lahmacun mit knackigem Salat und Tzatziki",
+                  "title": "Lahmacun mit knackigem Salat und Tzatziki dazu türkischer Reis",
                   "allergens": [
-                    "VG",
+                    "V",
                     "a",
                     "a1",
-                    "f"
+                    "f",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "VG,a,a1,f",
+                  "allergensRaw": "V,a,a1,f,g,1",
                   "price": {
                     "raw": "5,20 € / 6,80 €",
                     "currency": "EUR",
