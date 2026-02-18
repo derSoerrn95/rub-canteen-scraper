@@ -5,7 +5,7 @@
     "from": "2026-02-23",
     "to": "2026-02-27"
   },
-  "generatedAt": "2026-02-17T06:10:57.028Z",
+  "generatedAt": "2026-02-18T06:14:26.814Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -614,11 +614,11 @@
                   ],
                   "allergensRaw": "A,F,a,a1,d,f,g,l,5",
                   "price": {
-                    "raw": "6,90 € / 7,90 €",
+                    "raw": "6,70 € / 8,20 €",
                     "currency": "EUR",
                     "values": [
-                      6.9,
-                      7.9
+                      6.7,
+                      8.2
                     ],
                     "labels": [
                       "students",
@@ -878,11 +878,11 @@
                   ],
                   "allergensRaw": "A,F,a,a1,d,f,g,l,5",
                   "price": {
-                    "raw": "6,90 € / 7,90 €",
+                    "raw": "6,70 € / 8,20 €",
                     "currency": "EUR",
                     "values": [
-                      6.9,
-                      7.9
+                      6.7,
+                      8.2
                     ],
                     "labels": [
                       "students",
@@ -905,11 +905,11 @@
                   ],
                   "allergensRaw": "VG,f,6",
                   "price": {
-                    "raw": "3,50 € / 5,90 €",
+                    "raw": "2,70 € / 4,90 €",
                     "currency": "EUR",
                     "values": [
-                      3.5,
-                      5.9
+                      2.7,
+                      4.9
                     ],
                     "labels": [
                       "students",
@@ -1136,11 +1136,11 @@
                   ],
                   "allergensRaw": "R,a,a1,c,g,j,1,2,9",
                   "price": {
-                    "raw": "7,20 € / 8,90 €",
+                    "raw": "7,50 € / 9,50 €",
                     "currency": "EUR",
                     "values": [
-                      7.2,
-                      8.9
+                      7.5,
+                      9.5
                     ],
                     "labels": [
                       "students",
@@ -3564,21 +3564,23 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Langos mit Zwiebeln und Räuchertofu (VG,a,a1,f,j)",
+                  "title": "Reis-Bowl mit Pak Choi (VG,a,a1,a3,f,k,3)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
+                    "a3",
                     "f",
-                    "j"
+                    "k",
+                    "3"
                   ],
-                  "allergensRaw": "VG,a,a1,f,j",
+                  "allergensRaw": "VG,a,a1,a3,f,k,3",
                   "price": {
-                    "raw": "4,50 € / 6,40 €",
+                    "raw": "5,00 € / 7,10 €",
                     "currency": "EUR",
                     "values": [
-                      4.5,
-                      6.4
+                      5,
+                      7.1
                     ],
                     "labels": [
                       "students",
@@ -3704,23 +3706,21 @@
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Reis-Bowl mit Pak Choi (VG,a,a1,a3,f,k,3)",
+                  "title": "Langos mit Zwiebeln und Räuchertofu (VG,a,a1,f,j)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "a3",
                     "f",
-                    "k",
-                    "3"
+                    "j"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,f,k,3",
+                  "allergensRaw": "VG,a,a1,f,j",
                   "price": {
-                    "raw": "5,00 € / 7,10 €",
+                    "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      5,
-                      7.1
+                      4.5,
+                      6.4
                     ],
                     "labels": [
                       "students",
