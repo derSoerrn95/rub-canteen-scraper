@@ -5,7 +5,7 @@
     "from": "2026-02-23",
     "to": "2026-02-27"
   },
-  "generatedAt": "2026-02-20T06:08:36.439Z",
+  "generatedAt": "2026-02-21T05:56:01.478Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -1835,35 +1835,6 @@
               "title": "Beilagen",
               "meals": [
                 {
-                  "title": "Rucola mit Kirschtomaten und Hartkäse",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "f",
-                    "g",
-                    "j",
-                    "l",
-                    "1",
-                    "2",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
                   "title": "Rote Bete Salat",
                   "allergens": [
                     "VG"
@@ -1889,6 +1860,30 @@
                     "VG"
                   ],
                   "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Mexiko Salat",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "g",
+                    "j",
+                    "9"
+                  ],
+                  "allergensRaw": "V,c,g,j,9",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2085,37 +2080,6 @@
               "title": "Beilagen",
               "meals": [
                 {
-                  "title": "Babyspinat mit Hirtenkäse und Walnuss",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "f",
-                    "g",
-                    "h",
-                    "h3",
-                    "j",
-                    "l",
-                    "1",
-                    "2",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "V,c,f,g,h,h3,j,l,1,2,3,5",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
                   "title": "Bohnensalat",
                   "allergens": [
                     "VG",
@@ -2145,6 +2109,27 @@
                     "j"
                   ],
                   "allergensRaw": "V,c,g,j",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Krautsalat klar",
+                  "allergens": [
+                    "VG",
+                    "j"
+                  ],
+                  "allergensRaw": "VG,j",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2323,35 +2308,6 @@
               "title": "Beilagen",
               "meals": [
                 {
-                  "title": "Feldsalat mit Sonnenblumen- und Kürbiskernen",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "f",
-                    "g",
-                    "j",
-                    "l",
-                    "1",
-                    "2",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
                   "title": "Farmersalat",
                   "allergens": [
                     "V",
@@ -2382,6 +2338,29 @@
                     "2"
                   ],
                   "allergensRaw": "VG,2",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Kartoffelsalat mit Ei",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "j",
+                    "5"
+                  ],
+                  "allergensRaw": "V,c,j,5",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -2858,12 +2837,11 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,i)",
+                  "title": "Tagessuppe (VG)",
                   "allergens": [
-                    "VG",
-                    "i"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,i",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3000,12 +2978,11 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,i)",
+                  "title": "Tagessuppe (VG)",
                   "allergens": [
-                    "VG",
-                    "i"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,i",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3149,12 +3126,11 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,i)",
+                  "title": "Tagessuppe (VG)",
                   "allergens": [
-                    "VG",
-                    "i"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,i",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3295,12 +3271,11 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,i)",
+                  "title": "Tagessuppe (VG)",
                   "allergens": [
-                    "VG",
-                    "i"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,i",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3440,12 +3415,11 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,i)",
+                  "title": "Tagessuppe (VG)",
                   "allergens": [
-                    "VG",
-                    "i"
+                    "VG"
                   ],
-                  "allergensRaw": "VG,i",
+                  "allergensRaw": "VG",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
