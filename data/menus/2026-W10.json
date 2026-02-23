@@ -1,9 +1,9 @@
 {
   "week": {
     "isoYear": 2026,
-    "isoWeek": 9,
-    "from": "2026-02-23",
-    "to": "2026-02-27"
+    "isoWeek": 10,
+    "from": "2026-03-02",
+    "to": "2026-03-06"
   },
   "generatedAt": "2026-02-23T06:15:08.957Z",
   "canteens": {
@@ -70,28 +70,32 @@
         }
       },
       "days": {
-        "2026-02-23": {
-          "label": "Mo, 23.02.",
+        "2026-03-02": {
+          "label": "Mo, 02.03.",
           "categories": [
             {
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Caesar-Bowl mit Putenbrustreifen",
+                  "title": "24h Rinderbrust mit Honig Senfsauce,Süßkartoffelpürree und BBQ Kohl",
                   "allergens": [
-                    "G",
-                    "c",
+                    "A",
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
                     "g",
                     "j",
-                    "2"
+                    "2",
+                    "4"
                   ],
-                  "allergensRaw": "G,c,g,j,2",
+                  "allergensRaw": "A,V,a,a1,f,g,j,2,4",
                   "price": {
-                    "raw": "4,90 € / 7,80 €",
+                    "raw": "4,20 € / 5,20 €",
                     "currency": "EUR",
                     "values": [
-                      4.9,
-                      7.8
+                      4.2,
+                      5.2
                     ],
                     "labels": [
                       "students",
@@ -106,21 +110,20 @@
               "title": "Vegetarische Menükomponente",
               "meals": [
                 {
-                  "title": "Veganes Gyros mit Tzaziki",
+                  "title": "Kartoffeltasche mit Frischkäse und Paprikasauce",
                   "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "i"
+                    "V",
+                    "g",
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "VG,a,a1,f,i",
+                  "allergensRaw": "V,g,2,9",
                   "price": {
-                    "raw": "2,90 € / 5,30 €",
+                    "raw": "2,00 € / 3,00 €",
                     "currency": "EUR",
                     "values": [
-                      2.9,
-                      5.3
+                      2,
+                      3
                     ],
                     "labels": [
                       "students",
@@ -135,17 +138,18 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Putengyros mit Tsatziki",
+                  "title": "Putensteak mit Paprikasauce",
                   "allergens": [
                     "G",
-                    "g"
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "G,g",
+                  "allergensRaw": "G,2,9",
                   "price": {
-                    "raw": "3,50 € / 5,60 €",
+                    "raw": "3,40 € / 5,60 €",
                     "currency": "EUR",
                     "values": [
-                      3.5,
+                      3.4,
                       5.6
                     ],
                     "labels": [
@@ -254,15 +258,15 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Sizilianische Ricotta-Schupfnudeln",
+                  "title": "Tortellini-Auflauf mit Gemüse",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
-                    "c",
+                    "f",
                     "g"
                   ],
-                  "allergensRaw": "V,a,a1,c,g",
+                  "allergensRaw": "V,a,a1,f,g",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -283,12 +287,13 @@
               "title": "Beilage",
               "meals": [
                 {
-                  "title": "Paprikakraut",
+                  "title": "Mandelbrokkoli",
                   "allergens": [
-                    "A",
-                    "VG"
+                    "VG",
+                    "h",
+                    "h1"
                   ],
-                  "allergensRaw": "A,VG",
+                  "allergensRaw": "VG,h,h1",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -304,7 +309,272 @@
                   "highlight": false
                 },
                 {
-                  "title": "Djuvec-Reis",
+                  "title": "Schupfnudeln",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c"
+                  ],
+                  "allergensRaw": "V,a,a1,c",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        "2026-03-03": {
+          "label": "Di, 03.03.",
+          "categories": [
+            {
+              "title": "Aktion",
+              "meals": [
+                {
+                  "title": "24h Rinderbrust mit Honig Senfsauce,Süßkartoffelpürree und BBQ Kohl",
+                  "allergens": [
+                    "A",
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "j",
+                    "2",
+                    "4"
+                  ],
+                  "allergensRaw": "A,V,a,a1,f,g,j,2,4",
+                  "price": {
+                    "raw": "4,20 € / 5,20 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.2,
+                      5.2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "title": "Vegetarische Menükomponente",
+              "meals": [
+                {
+                  "title": "Quinoa-Erbsen-Frikadelle mit Tzatziki",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "2,50 € / 4,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Komponentenessen",
+              "meals": [
+                {
+                  "title": "Köfte mit Tzatziki",
+                  "allergens": [
+                    "R",
+                    "a",
+                    "a1",
+                    "c",
+                    "g"
+                  ],
+                  "allergensRaw": "R,a,a1,c,g",
+                  "price": {
+                    "raw": "3,20 € / 5,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.2,
+                      5.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Döner",
+              "meals": [
+                {
+                  "title": "Hähnchendöner mit Pommes und Salat",
+                  "allergens": [
+                    "G",
+                    "H",
+                    "g",
+                    "i",
+                    "j",
+                    "2"
+                  ],
+                  "allergensRaw": "G,H,g,i,j,2",
+                  "price": {
+                    "raw": "4,70 € / 6,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.7,
+                      6.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Falafel Teller",
+              "meals": [
+                {
+                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "j",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,j,1,2",
+                  "price": {
+                    "raw": "3,40 € / 5,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.4,
+                      5.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Nudeltheke",
+              "meals": [
+                {
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "i",
+                    "1",
+                    "3"
+                  ],
+                  "allergensRaw": "V,a,a1,f,g,i,1,3",
+                  "price": {
+                    "raw": "2,50 € / 4,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Sprinter",
+              "meals": [
+                {
+                  "title": "Casa España  Würziger Bohneneintopf mit Brötchen",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "l",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "VG,a,a1,l,3,5",
+                  "price": {
+                    "raw": "2,50 € / 4,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage",
+              "meals": [
+                {
+                  "title": "Mais-Paprika-Bohnengemüse",
+                  "allergens": [
+                    "VG",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,1",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Tomatenreis",
                   "allergens": [
                     "VG"
                   ],
@@ -327,28 +597,37 @@
             }
           ]
         },
-        "2026-02-24": {
-          "label": "Di, 24.02.",
+        "2026-03-04": {
+          "label": "Mi, 04.03.",
           "categories": [
             {
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Caesar-Bowl mit Putenbrustreifen",
+                  "title": "Pulled Lachs Bowl (F) (RUB)",
                   "allergens": [
-                    "G",
-                    "c",
-                    "g",
+                    "A",
+                    "F",
+                    "a",
+                    "a1",
+                    "d",
+                    "f",
                     "j",
-                    "2"
+                    "k",
+                    "l",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
                   ],
-                  "allergensRaw": "G,c,g,j,2",
+                  "allergensRaw": "A,F,a,a1,d,f,j,k,l,1,2,3,4,5",
                   "price": {
-                    "raw": "4,90 € / 7,80 €",
+                    "raw": "4,20 € / 5,20 €",
                     "currency": "EUR",
                     "values": [
-                      4.9,
-                      7.8
+                      4.2,
+                      5.2
                     ],
                     "labels": [
                       "students",
@@ -363,21 +642,52 @@
               "title": "Vegetarische Menükomponente",
               "meals": [
                 {
-                  "title": "Semmelknödel mit Champignonsauce",
+                  "title": "Sellerie Knusperschnitzel mit Champignonsauce",
                   "allergens": [
-                    "V",
+                    "VG",
                     "a",
                     "a1",
-                    "c",
                     "f",
+                    "i",
                     "3"
                   ],
-                  "allergensRaw": "V,a,a1,c,f,3",
+                  "allergensRaw": "VG,a,a1,f,i,3",
                   "price": {
-                    "raw": "2,60 € / 4,80 €",
+                    "raw": "2,20 € / 4,30 €",
                     "currency": "EUR",
                     "values": [
-                      2.6,
+                      2.2,
+                      4.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Komponentenessen",
+              "meals": [
+                {
+                  "title": "Hähnchen-Cordon Bleu mit Champignonsauce",
+                  "allergens": [
+                    "G",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "2",
+                    "3"
+                  ],
+                  "allergensRaw": "G,a,a1,f,g,2,3",
+                  "price": {
+                    "raw": "2,80 € / 4,80 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.8,
                       4.8
                     ],
                     "labels": [
@@ -390,38 +700,6 @@
               ]
             },
             {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Kalbfleischbällchen mit Champignonsauce",
-                  "allergens": [
-                    "R",
-                    "a",
-                    "a1",
-                    "a3",
-                    "c",
-                    "f",
-                    "j",
-                    "3"
-                  ],
-                  "allergensRaw": "R,a,a1,a3,c,f,j,3",
-                  "price": {
-                    "raw": "3,70 € / 5,90 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.7,
-                      5.9
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Döner",
               "meals": [
                 {
@@ -518,542 +796,15 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Kartoffeleintopf mit Brötchen",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "i",
-                    "l",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "VG,a,a1,i,l,3,5",
-                  "price": {
-                    "raw": "2,50 € / 4,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Beilage",
-              "meals": [
-                {
-                  "title": "Blumenkohl in heller Sauce",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "Salzkartoffeln",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
-        },
-        "2026-02-25": {
-          "label": "Mi, 25.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Teriyakilachs mit Süßkartoffelpüree und Spinat",
-                  "allergens": [
-                    "A",
-                    "F",
-                    "a",
-                    "a1",
-                    "d",
-                    "f",
-                    "g",
-                    "l",
-                    "5"
-                  ],
-                  "allergensRaw": "A,F,a,a1,d,f,g,l,5",
-                  "price": {
-                    "raw": "6,70 € / 8,20 €",
-                    "currency": "EUR",
-                    "values": [
-                      6.7,
-                      8.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Vegetarische Menükomponente",
-              "meals": [
-                {
-                  "title": "Blumenkohlkäsebratling mit Tomatensauce",
+                  "title": "Spätzle-Spitzkohl Auflauf",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
                     "c",
-                    "g",
-                    "i"
-                  ],
-                  "allergensRaw": "V,a,a1,c,g,i",
-                  "price": {
-                    "raw": "2,80 € / 5,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.8,
-                      5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Hähnchenschnitzel Piccata Milanese mit Tomatensauce",
-                  "allergens": [
-                    "G",
-                    "a",
-                    "a1",
                     "g"
                   ],
-                  "allergensRaw": "G,a,a1,g",
-                  "price": {
-                    "raw": "3,50 € / 5,90 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.5,
-                      5.9
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Döner",
-              "meals": [
-                {
-                  "title": "Hähnchendöner mit Pommes und Salat",
-                  "allergens": [
-                    "G",
-                    "H",
-                    "g",
-                    "i",
-                    "j",
-                    "2"
-                  ],
-                  "allergensRaw": "G,H,g,i,j,2",
-                  "price": {
-                    "raw": "4,70 € / 6,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.7,
-                      6.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Falafel Teller",
-              "meals": [
-                {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
-                  "price": {
-                    "raw": "3,40 € / 5,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.4,
-                      5.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Nudeltheke",
-              "meals": [
-                {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "f",
-                    "g",
-                    "i",
-                    "1",
-                    "3"
-                  ],
-                  "allergensRaw": "V,a,a1,f,g,i,1,3",
-                  "price": {
-                    "raw": "2,50 € / 4,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Sprinter",
-              "meals": [
-                {
-                  "title": "Aloo Gobi-Blumenkohl Curry",
-                  "allergens": [
-                    "VG",
-                    "l",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "VG,l,3,5",
-                  "price": {
-                    "raw": "2,50 € / 4,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Beilage",
-              "meals": [
-                {
-                  "title": "Brokkoli",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "Bandnudeln",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1"
-                  ],
-                  "allergensRaw": "VG,a,a1",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
-        },
-        "2026-02-26": {
-          "label": "Do, 26.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Teriyakilachs mit Süßkartoffelpüree und Spinat",
-                  "allergens": [
-                    "A",
-                    "F",
-                    "a",
-                    "a1",
-                    "d",
-                    "f",
-                    "g",
-                    "l",
-                    "5"
-                  ],
-                  "allergensRaw": "A,F,a,a1,d,f,g,l,5",
-                  "price": {
-                    "raw": "6,70 € / 8,20 €",
-                    "currency": "EUR",
-                    "values": [
-                      6.7,
-                      8.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Vegetarische Menükomponente",
-              "meals": [
-                {
-                  "title": "Tofu Cacciatore",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "6"
-                  ],
-                  "allergensRaw": "VG,f,6",
-                  "price": {
-                    "raw": "2,70 € / 4,90 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.7,
-                      4.9
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Komponentenessen",
-              "meals": [
-                {
-                  "title": "Tacchino Cacciatore - Geschmorte Putenoberkeule",
-                  "allergens": [
-                    "G",
-                    "6"
-                  ],
-                  "allergensRaw": "G,6",
-                  "price": {
-                    "raw": "3,50 € / 5,90 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.5,
-                      5.9
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Döner",
-              "meals": [
-                {
-                  "title": "Hähnchendöner mit Pommes und Salat",
-                  "allergens": [
-                    "G",
-                    "H",
-                    "g",
-                    "i",
-                    "j",
-                    "2"
-                  ],
-                  "allergensRaw": "G,H,g,i,j,2",
-                  "price": {
-                    "raw": "4,70 € / 6,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.7,
-                      6.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Falafel Teller",
-              "meals": [
-                {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
-                  "price": {
-                    "raw": "3,40 € / 5,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.4,
-                      5.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Nudeltheke",
-              "meals": [
-                {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "f",
-                    "g",
-                    "i",
-                    "1",
-                    "3"
-                  ],
-                  "allergensRaw": "V,a,a1,f,g,i,1,3",
-                  "price": {
-                    "raw": "2,50 € / 4,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Sprinter",
-              "meals": [
-                {
-                  "title": "Linsencurry mit Fladenbrot",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "f",
-                    "k",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,f,k,2",
+                  "allergensRaw": "V,a,a1,c,g",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -1094,11 +845,33 @@
                   "highlight": false
                 },
                 {
-                  "title": "Reis",
+                  "title": "Kartoffel-Gratin",
                   "allergens": [
-                    "VG"
+                    "V",
+                    "g"
                   ],
-                  "allergensRaw": "VG",
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Kartoffel-Gratin",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
                   "price": {
                     "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
@@ -1117,32 +890,37 @@
             }
           ]
         },
-        "2026-02-27": {
-          "label": "Fr, 27.02.",
+        "2026-03-05": {
+          "label": "Do, 05.03.",
           "categories": [
             {
               "title": "Aktion",
               "meals": [
                 {
-                  "title": "Cheeseburger mit Wedgeskartoffeln",
+                  "title": "Pulled Lachs Bowl (F) (RUB)",
                   "allergens": [
-                    "R",
+                    "A",
+                    "F",
                     "a",
                     "a1",
-                    "c",
-                    "g",
+                    "d",
+                    "f",
                     "j",
+                    "k",
+                    "l",
                     "1",
                     "2",
-                    "9"
+                    "3",
+                    "4",
+                    "5"
                   ],
-                  "allergensRaw": "R,a,a1,c,g,j,1,2,9",
+                  "allergensRaw": "A,F,a,a1,d,f,j,k,l,1,2,3,4,5",
                   "price": {
-                    "raw": "7,50 € / 9,50 €",
+                    "raw": "4,20 € / 5,20 €",
                     "currency": "EUR",
                     "values": [
-                      7.5,
-                      9.5
+                      4.2,
+                      5.2
                     ],
                     "labels": [
                       "students",
@@ -1157,22 +935,19 @@
               "title": "Vegetarische Menükomponente",
               "meals": [
                 {
-                  "title": "Gemüsemaultaschen mit Kräuter-Sauerrahmsauce",
+                  "title": "Vegane Bratwurst mit Bratensauce",
                   "allergens": [
-                    "V",
+                    "VG",
                     "a",
-                    "a1",
-                    "c",
-                    "g",
-                    "i"
+                    "a1"
                   ],
-                  "allergensRaw": "V,a,a1,c,g,i",
+                  "allergensRaw": "VG,a,a1",
                   "price": {
-                    "raw": "2,70 € / 5,00 €",
+                    "raw": "2,40 € / 4,50 €",
                     "currency": "EUR",
                     "values": [
-                      2.7,
-                      5
+                      2.4,
+                      4.5
                     ],
                     "labels": [
                       "students",
@@ -1187,21 +962,21 @@
               "title": "Komponentenessen",
               "meals": [
                 {
-                  "title": "Knusper-Seelachs mit Kräuter-Sauerrahmsauce",
+                  "title": "Mini Rostbratwurst mit Bratensauce",
                   "allergens": [
-                    "F",
+                    "S",
                     "a",
                     "a1",
-                    "d",
-                    "g"
+                    "j",
+                    "8"
                   ],
-                  "allergensRaw": "F,a,a1,d,g",
+                  "allergensRaw": "S,a,a1,j,8",
                   "price": {
-                    "raw": "2,70 € / 5,00 €",
+                    "raw": "2,80 € / 4,30 €",
                     "currency": "EUR",
                     "values": [
-                      2.7,
-                      5
+                      2.8,
+                      4.3
                     ],
                     "labels": [
                       "students",
@@ -1309,13 +1084,15 @@
               "title": "Sprinter",
               "meals": [
                 {
-                  "title": "Mexikanischer Auflauf",
+                  "title": "Thai-Curry",
                   "allergens": [
-                    "V",
-                    "g",
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
                     "2"
                   ],
-                  "allergensRaw": "V,g,2",
+                  "allergensRaw": "VG,a,a1,f,2",
                   "price": {
                     "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
@@ -1336,7 +1113,7 @@
               "title": "Beilage",
               "meals": [
                 {
-                  "title": "Französisches Ofengemüse",
+                  "title": "Bayrisches Kraut",
                   "allergens": [
                     "VG"
                   ],
@@ -1356,7 +1133,267 @@
                   "highlight": false
                 },
                 {
-                  "title": "Ofen-Drillinge",
+                  "title": "Kartoffelpüree",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        "2026-03-06": {
+          "label": "Fr, 06.03.",
+          "categories": [
+            {
+              "title": "Aktion",
+              "meals": [
+                {
+                  "title": "Kottu Roti",
+                  "allergens": [
+                    "G",
+                    "a",
+                    "a1",
+                    "c"
+                  ],
+                  "allergensRaw": "G,a,a1,c",
+                  "price": {
+                    "raw": "6,80 € / 8,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      6.8,
+                      8.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "title": "Vegetarische Menükomponente",
+              "meals": [
+                {
+                  "title": "Vegane Fischfrikadelle mit Tomaten-Zitronensauce",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "j"
+                  ],
+                  "allergensRaw": "VG,a,a1,j",
+                  "price": {
+                    "raw": "2,90 € / 5,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.9,
+                      5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Komponentenessen",
+              "meals": [
+                {
+                  "title": "Hoki-Fischfilet mit Tomaten-Zitronensauce",
+                  "allergens": [
+                    "F",
+                    "a",
+                    "a1",
+                    "d",
+                    "g",
+                    "j"
+                  ],
+                  "allergensRaw": "F,a,a1,d,g,j",
+                  "price": {
+                    "raw": "2,60 € / 4,80 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.6,
+                      4.8
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Döner",
+              "meals": [
+                {
+                  "title": "Hähnchendöner mit Pommes und Salat",
+                  "allergens": [
+                    "G",
+                    "H",
+                    "g",
+                    "i",
+                    "j",
+                    "2"
+                  ],
+                  "allergensRaw": "G,H,g,i,j,2",
+                  "price": {
+                    "raw": "4,70 € / 6,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.7,
+                      6.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Falafel Teller",
+              "meals": [
+                {
+                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "j",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,j,1,2",
+                  "price": {
+                    "raw": "3,40 € / 5,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.4,
+                      5.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Nudeltheke",
+              "meals": [
+                {
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "i",
+                    "1",
+                    "3"
+                  ],
+                  "allergensRaw": "V,a,a1,f,g,i,1,3",
+                  "price": {
+                    "raw": "2,50 € / 4,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Sprinter",
+              "meals": [
+                {
+                  "title": "Chili sin Carne mit Baguette",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a3",
+                    "f",
+                    "i"
+                  ],
+                  "allergensRaw": "VG,a,a1,a3,f,i",
+                  "price": {
+                    "raw": "2,50 € / 4,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage",
+              "meals": [
+                {
+                  "title": "Erbsen und Karotten",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
+                  "title": "Salzkartoffeln",
                   "allergens": [
                     "VG"
                   ],
@@ -1444,25 +1481,25 @@
         }
       },
       "days": {
-        "2026-02-23": {
-          "label": "Mo, 23.02.",
+        "2026-03-02": {
+          "label": "Mo, 02.03.",
           "categories": [
             {
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Putensteak mit Gorgonzolasauce dazu Brokkoli und Rosmarinkartoffeln",
+                  "title": "Hähnchenbrust mit Ratatouille und Gnocchis",
                   "allergens": [
                     "G",
-                    "g"
+                    "c"
                   ],
-                  "allergensRaw": "G,g",
+                  "allergensRaw": "G,c",
                   "price": {
-                    "raw": "5,70 € / 8,10 €",
+                    "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
                     "values": [
-                      5.7,
-                      8.1
+                      5.9,
+                      8.4
                     ],
                     "labels": [
                       "students",
@@ -1477,22 +1514,24 @@
               "title": "Wok",
               "meals": [
                 {
-                  "title": "Buntes Gemüse in Würziger Sauce dazu Reis",
+                  "title": "Schweinegeschnetzeltes \"Zürcher-Art\" dazu Reis",
                   "allergens": [
-                    "VG",
+                    "A",
+                    "S",
                     "a",
                     "a1",
-                    "f",
+                    "g",
+                    "l",
                     "1",
-                    "2"
+                    "5"
                   ],
-                  "allergensRaw": "VG,a,a1,f,1,2",
+                  "allergensRaw": "A,S,a,a1,g,l,1,5",
                   "price": {
-                    "raw": "4,30 € / 6,10 €",
+                    "raw": "4,60 € / 6,50 €",
                     "currency": "EUR",
                     "values": [
-                      4.3,
-                      6.1
+                      4.6,
+                      6.5
                     ],
                     "labels": [
                       "students",
@@ -1507,16 +1546,15 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Auberginen Spinat Lasagne",
+                  "title": "Gemüselasagne",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
                     "g",
-                    "l",
-                    "3"
+                    "i"
                   ],
-                  "allergensRaw": "V,a,a1,g,l,3",
+                  "allergensRaw": "V,a,a1,g,i",
                   "price": {
                     "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
@@ -1698,35 +1736,30 @@
             }
           ]
         },
-        "2026-02-24": {
-          "label": "Di, 24.02.",
+        "2026-03-03": {
+          "label": "Di, 03.03.",
           "categories": [
             {
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Grillteller mit Cevapcici, Lammhacksteak und Putensteak dazu Wedges und Bauernsalat",
+                  "title": "Rinderhacksteak mit Dauphines Kartoffeln, Preiselbeer- Pfeffer Sauce und Blumenkohl",
                   "allergens": [
-                    "G",
-                    "L",
                     "R",
                     "a",
                     "a1",
                     "c",
                     "g",
-                    "i",
                     "j",
-                    "l",
-                    "3",
-                    "5"
+                    "1"
                   ],
-                  "allergensRaw": "G,L,R,a,a1,c,g,i,j,l,3,5",
+                  "allergensRaw": "R,a,a1,c,g,j,1",
                   "price": {
-                    "raw": "6,50 € / 9,20 €",
+                    "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
                     "values": [
-                      6.5,
-                      9.2
+                      5.9,
+                      8.4
                     ],
                     "labels": [
                       "students",
@@ -1741,23 +1774,19 @@
               "title": "Wok",
               "meals": [
                 {
-                  "title": "Königsberger Klopse mit Kartoffeln",
+                  "title": "Putengeschnetzeltes in Paprikarahmsauce dazu Reis",
                   "allergens": [
-                    "R",
-                    "a",
-                    "a1",
-                    "a3",
-                    "c",
+                    "G",
                     "g",
-                    "j"
+                    "1"
                   ],
-                  "allergensRaw": "R,a,a1,a3,c,g,j",
+                  "allergensRaw": "G,g,1",
                   "price": {
-                    "raw": "4,90 € / 6,90 €",
+                    "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.9,
-                      6.9
+                      4.5,
+                      6.4
                     ],
                     "labels": [
                       "students",
@@ -1772,17 +1801,20 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Tomatencurry mit Paprika, Zucchini und Linsen dazu Reis",
+                  "title": "Afrikanischer Erdnusseintopf mit Reis",
                   "allergens": [
-                    "VG"
+                    "VG",
+                    "e",
+                    "j",
+                    "1"
                   ],
-                  "allergensRaw": "VG",
+                  "allergensRaw": "VG,e,j,1",
                   "price": {
-                    "raw": "4,30 € / 5,30 €",
+                    "raw": "4,30 € / 6,10 €",
                     "currency": "EUR",
                     "values": [
                       4.3,
-                      5.3
+                      6.1
                     ],
                     "labels": [
                       "students",
@@ -1835,6 +1867,35 @@
               "title": "Beilagen",
               "meals": [
                 {
+                  "title": "Rucola mit Kirschtomaten und Hartkäse",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "j",
+                    "l",
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
+                {
                   "title": "Rote Bete Salat",
                   "allergens": [
                     "VG"
@@ -1860,30 +1921,6 @@
                     "VG"
                   ],
                   "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                },
-                {
-                  "title": "Mexiko Salat",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "g",
-                    "j",
-                    "9"
-                  ],
-                  "allergensRaw": "V,c,g,j,9",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -1926,11 +1963,12 @@
                   "highlight": false
                 },
                 {
-                  "title": "Oreocreme",
+                  "title": "Mousse \"Erdnuss\"",
                   "allergens": [
+                    "e",
                     "g"
                   ],
-                  "allergensRaw": "g",
+                  "allergensRaw": "e,g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -1949,22 +1987,22 @@
             }
           ]
         },
-        "2026-02-25": {
-          "label": "Mi, 25.02.",
+        "2026-03-04": {
+          "label": "Mi, 04.03.",
           "categories": [
             {
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Hähnchenschnitzel mit Kartoffelsalat",
+                  "title": "Hähnchenschnitzel \"Ungarisch\" mit Pommes frites",
                   "allergens": [
                     "G",
                     "a",
                     "a1",
-                    "i",
-                    "j"
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "G,a,a1,i,j",
+                  "allergensRaw": "G,a,a1,2,9",
                   "price": {
                     "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
@@ -1985,21 +2023,19 @@
               "title": "Wok",
               "meals": [
                 {
-                  "title": "Rindfleischstreifen mit Champignons & Brokkoli dazu Bratnudeln",
+                  "title": "Hühnerfrikassee mit Erbsen, Möhren und Spargel dazu Reis",
                   "allergens": [
-                    "R",
-                    "a",
-                    "a1",
-                    "f",
-                    "k"
+                    "G",
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "R,a,a1,f,k",
+                  "allergensRaw": "G,g,1",
                   "price": {
-                    "raw": "4,70 € / 6,70 €",
+                    "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.7,
-                      6.7
+                      4.5,
+                      6.4
                     ],
                     "labels": [
                       "students",
@@ -2014,14 +2050,15 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Tortellini mit Gemüse und Gouda überbacken",
+                  "title": "Backkartoffel mit Linsen- Bolognese und Salat",
                   "allergens": [
                     "V",
-                    "a",
-                    "a1",
-                    "g"
+                    "l",
+                    "1",
+                    "3",
+                    "5"
                   ],
-                  "allergensRaw": "V,a,a1,g",
+                  "allergensRaw": "V,l,1,3,5",
                   "price": {
                     "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
@@ -2079,6 +2116,37 @@
             {
               "title": "Beilagen",
               "meals": [
+                {
+                  "title": "Babyspinat mit Hirtenkäse und Walnuss",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "h",
+                    "h3",
+                    "j",
+                    "l",
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "V,c,f,g,h,h3,j,l,1,2,3,5",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
                 {
                   "title": "Bohnensalat",
                   "allergens": [
@@ -2122,27 +2190,6 @@
                     ]
                   },
                   "highlight": false
-                },
-                {
-                  "title": "Krautsalat klar",
-                  "allergens": [
-                    "VG",
-                    "j"
-                  ],
-                  "allergensRaw": "VG,j",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
                 }
               ]
             },
@@ -2150,15 +2197,17 @@
               "title": "Dessert",
               "meals": [
                 {
-                  "title": "Vanille Quark mit Himbeeren und Butterkeksen",
+                  "title": "Schwarzwälder Creme",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
+                    "c",
+                    "f",
                     "g",
-                    "1"
+                    "2"
                   ],
-                  "allergensRaw": "V,a,a1,g,1",
+                  "allergensRaw": "V,a,a1,c,f,g,2",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2198,28 +2247,30 @@
             }
           ]
         },
-        "2026-02-26": {
-          "label": "Do, 26.02.",
+        "2026-03-05": {
+          "label": "Do, 05.03.",
           "categories": [
             {
               "title": "Wok",
               "meals": [
                 {
-                  "title": "Hähnchen \"Süß-Sauer\" mit Gemüse dazu Reis",
+                  "title": "Thai-Green-Curry vom Rind dazu Bratnudeln",
                   "allergens": [
-                    "G",
-                    "k",
-                    "1",
-                    "2",
-                    "9"
+                    "R",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "i",
+                    "k"
                   ],
-                  "allergensRaw": "G,k,1,2,9",
+                  "allergensRaw": "R,a,a1,f,g,i,k",
                   "price": {
-                    "raw": "4,50 € / 6,40 €",
+                    "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
                     "values": [
-                      4.5,
-                      6.4
+                      4.7,
+                      6.7
                     ],
                     "labels": [
                       "students",
@@ -2234,22 +2285,15 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Pilzragout mit Spätzle an Salat",
+                  "title": "Käsespätzle mit Röstzwiebeln",
                   "allergens": [
                     "V",
                     "a",
                     "a1",
                     "c",
-                    "f",
-                    "g",
-                    "j",
-                    "l",
-                    "1",
-                    "2",
-                    "3",
-                    "5"
+                    "g"
                   ],
-                  "allergensRaw": "V,a,a1,c,f,g,j,l,1,2,3,5",
+                  "allergensRaw": "V,a,a1,c,g",
                   "price": {
                     "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
@@ -2307,6 +2351,35 @@
             {
               "title": "Beilagen",
               "meals": [
+                {
+                  "title": "Feldsalat mit Sonnenblumen- und Kürbiskernen",
+                  "allergens": [
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "j",
+                    "l",
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
+                  "price": {
+                    "raw": "1,20 € / 1,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      1.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                },
                 {
                   "title": "Farmersalat",
                   "allergens": [
@@ -2351,29 +2424,6 @@
                     ]
                   },
                   "highlight": false
-                },
-                {
-                  "title": "Kartoffelsalat mit Ei",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "j",
-                    "5"
-                  ],
-                  "allergensRaw": "V,c,j,5",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
                 }
               ]
             },
@@ -2404,14 +2454,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Nutellacreme",
+                  "title": "Kakaocreme",
                   "allergens": [
-                    "f",
-                    "g",
-                    "h",
-                    "h2"
+                    "g"
                   ],
-                  "allergensRaw": "f,g,h,h2",
+                  "allergensRaw": "g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2430,14 +2477,14 @@
             }
           ]
         },
-        "2026-02-27": {
-          "label": "Fr, 27.02.",
+        "2026-03-06": {
+          "label": "Fr, 06.03.",
           "categories": [
             {
               "title": "Grill",
               "meals": [
                 {
-                  "title": "Lachssteak mit Rahmspinat und Butterkartoffeln",
+                  "title": "Lachsfilet mit Zitronensauce dazu Rosmarinkartoffeln und Buntes Gemüse",
                   "allergens": [
                     "F",
                     "d",
@@ -2464,15 +2511,12 @@
               "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Indisches-Kokos-Curry mit Reis",
+                  "title": "Malaiisches-Gemüse-Curry dazu Reis",
                   "allergens": [
                     "VG",
-                    "l",
-                    "1",
-                    "3",
-                    "5"
+                    "1"
                   ],
-                  "allergensRaw": "VG,l,1,3,5",
+                  "allergensRaw": "VG,1",
                   "price": {
                     "raw": "4,30 € / 6,10 €",
                     "currency": "EUR",
@@ -2627,12 +2671,11 @@
                   "highlight": false
                 },
                 {
-                  "title": "Stracciatella-Creme",
+                  "title": "Himbeercreme",
                   "allergens": [
-                    "f",
                     "g"
                   ],
-                  "allergensRaw": "f,g",
+                  "allergensRaw": "g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -2716,727 +2759,25 @@
         }
       },
       "days": {
-        "2026-02-23": {
-          "label": "Mo, 23.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Lahmacun mit knackigem Salat, Tzatziki und Pommes frites (VG,a,a1,f)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,a,a1,f",
-                  "price": {
-                    "raw": "6,00 € / 8,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      6,
-                      8.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Kartoffel-Champi-Wok mit Zwiebel und Aioli",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
-                  "price": {
-                    "raw": "0,90 € / 1,30 € (Preis pro 100 Gramm)",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert",
-              "meals": [
-                {
-                  "title": "Schokopudding",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Apple Cake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a1,h,h1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG)",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
+        "2026-03-02": {
+          "label": "Mo, 02.03.",
+          "categories": []
         },
-        "2026-02-24": {
-          "label": "Di, 24.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Reis-Bowl mit Pak Choi (VG,a,a1,a3,f,k,3)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "f",
-                    "k",
-                    "3"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,f,k,3",
-                  "price": {
-                    "raw": "5,00 € / 7,10 €",
-                    "currency": "EUR",
-                    "values": [
-                      5,
-                      7.1
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "",
-                  "allergens": [
-                    "B"
-                  ],
-                  "allergensRaw": "B",
-                  "price": {
-                    "raw": "0,90 € / 1,30 € (Preis pro 100 Gramm)",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert",
-              "meals": [
-                {
-                  "title": "Quarkspeise mit Schattenmorellen",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Lemoncake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "h",
-                    "h7"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,h,h7",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG)",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
+        "2026-03-03": {
+          "label": "Di, 03.03.",
+          "categories": []
         },
-        "2026-02-25": {
-          "label": "Mi, 25.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Langos mit Zwiebeln und Räuchertofu (VG,a,a1,a3,f,j)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "f",
-                    "j"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,f,j",
-                  "price": {
-                    "raw": "4,50 € / 6,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.5,
-                      6.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Gegrillter Tofu mit Chilisauce",
-                  "allergens": [
-                    "A",
-                    "VG",
-                    "a",
-                    "a1",
-                    "e",
-                    "f",
-                    "k"
-                  ],
-                  "allergensRaw": "A,VG,a,a1,e,f,k",
-                  "price": {
-                    "raw": "0,90 € / 1,30 € (Preis pro 100 Gramm)",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert",
-              "meals": [
-                {
-                  "title": "Vanillepudding ohne Schnickschnack",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,2",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Saftige Rüblitorte",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,h,h1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG)",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
+        "2026-03-04": {
+          "label": "Mi, 04.03.",
+          "categories": []
         },
-        "2026-02-26": {
-          "label": "Do, 26.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "Exotischer Chiasamen Burger mit Country Cubs (VG,a,a1,a3,j,1)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "j",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,j,1",
-                  "price": {
-                    "raw": "6,50 € / 9,20 €",
-                    "currency": "EUR",
-                    "values": [
-                      6.5,
-                      9.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Buffalo-Blumenkohl",
-                  "allergens": [
-                    "VG",
-                    "i",
-                    "2",
-                    "4"
-                  ],
-                  "allergensRaw": "VG,i,2,4",
-                  "price": {
-                    "raw": "0,90 € / 1,30 € (Preis pro 100 Gramm)",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert",
-              "meals": [
-                {
-                  "title": "Mango-Kokos-Bowl",
-                  "allergens": [
-                    "VG",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,h,h1",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Kirsch-Nuss-Bananenschnitte",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a5",
-                    "f",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a5,f,h,h1",
-                  "price": {
-                    "raw": "2,20 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.2,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG)",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
+        "2026-03-05": {
+          "label": "Do, 05.03.",
+          "categories": []
         },
-        "2026-02-27": {
-          "label": "Fr, 27.02.",
-          "categories": [
-            {
-              "title": "Aktion",
-              "meals": [
-                {
-                  "title": "persische Blätterteigtaschen (VG,a,a1,k) Mango Chutney (VG,2) Pommes Frites groß (VG) Gurkensalat in Dillsahne (VG,f,j)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "k",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,k,2",
-                  "price": {
-                    "raw": "5,50 € / 7,80 €",
-                    "currency": "EUR",
-                    "values": [
-                      5.5,
-                      7.8
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": true
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Curry Lasagne Asia Style",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,1",
-                  "price": {
-                    "raw": "0,90 € / 1,30 € (Preis pro 100 Gramm)",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert",
-              "meals": [
-                {
-                  "title": "Panna-Cotta mit Mangospiegel",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Cheesecake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,a,a1,1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG)",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            }
-          ]
+        "2026-03-06": {
+          "label": "Fr, 06.03.",
+          "categories": []
         }
       }
     }
