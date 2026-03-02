@@ -1,21 +1,17 @@
 #!/usr/bin/env bun
 
-import {existsSync, mkdirSync, readFileSync, writeFileSync} from "node:fs";
-import {dirname, join, resolve} from "node:path";
-
-import type {Cheerio, CheerioAPI} from "cheerio";
-import {load} from "cheerio";
-
-type Element = any;
+import {existsSync, mkdirSync, readFileSync, writeFileSync} from "fs";
+import {dirname, join, resolve} from "path";
 
 const REQUEST_TIMEOUT_MS = 20_000;
-const USER_AGENT =
-    "rub-mensa-scraper/1.0 (+https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/)";
+const API_BASE = "https://akafoe.studylife.org/api";
+const USER_AGENT = "rub-mensa-scraper/1.0 (+https://github.com)";
 
 interface CanteenConfig {
     readonly slug: string;
     readonly name: string;
-    readonly url: string;
+    readonly apiId: string;
+    readonly sourceUrl: string;
 }
 
 interface MealPrice {
@@ -53,11 +49,6 @@ interface Legend {
     readonly info: Record<string, string>;
     readonly allergens: Record<string, string>;
     readonly additives: Record<string, string>;
-}
-
-interface ParsedMenu {
-    readonly days: DayMenu[];
-    readonly legend: Legend | null;
 }
 
 interface WeekPartition {
@@ -112,31 +103,117 @@ interface DayGroupedWeek {
     >;
 }
 
+interface ApiMeal {
+    readonly title: string;
+    readonly icons: string[];
+    readonly allergens: string[];
+    readonly additives: string[];
+    readonly price_student: number | null;
+    readonly price_employee: number | null;
+    readonly price_guest: number | null;
+    readonly is_featured: boolean;
+    readonly meal_date: string;
+    readonly category: {
+        readonly name: string;
+    };
+}
+
+interface ApiDay {
+    readonly date: string;
+    readonly meals: ApiMeal[];
+}
+
+interface ApiWeekResponse {
+    readonly week_number: number;
+    readonly start_date: string;
+    readonly end_date: string;
+    readonly days: ApiDay[];
+}
+
 const CANTEENS: readonly CanteenConfig[] = [
     {
         slug: "main",
         name: "Mensa Ruhr-Universität Bochum",
-        url: "https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/ruhr-universitaet-bochum/",
+        apiId: "a0f40678-5e86-4ae4-9ff1-ae1e9e25934b",
+        sourceUrl: "https://www.akafoe.de/essen/mensen-und-cafeterien/speiseplan/Mensa",
     },
     {
         slug: "q-west",
         name: "Q-West",
-        url: "https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/q-west/",
+        apiId: "a0f40678-ac6b-4b31-a37b-7f0e4b5eb188",
+        sourceUrl: "https://www.akafoe.de/essen/mensen-und-cafeterien/speiseplan/Q-West%20-%20Mensa",
     },
     {
         slug: "rote-beete",
-        name: "Rote Beete",
-        url: "https://www.akafoe.de/gastronomie/speiseplaene-der-mensen/rote-bete/",
+        name: "Rote Bete",
+        apiId: "a0f4067a-78d2-42c2-a3de-1006cf571dea",
+        sourceUrl: "https://www.akafoe.de/essen/mensen-und-cafeterien/speiseplan/Rote%20Bete",
     },
 ];
 
-class NotFoundError extends Error {
-    constructor(readonly url: string) {
-        super(`Resource not found: ${url}`);
-    }
-}
+const LEGEND: Legend = {
+    info: {
+        A: "mit Alkohol",
+        F: "mit Fisch",
+        G: "mit Geflügel",
+        H: "Halal",
+        L: "mit Lamm",
+        R: "mit Rind",
+        S: "mit Schwein",
+        V: "vegetarisch",
+        VG: "vegan",
+        W: "mit Wild",
+    },
+    allergens: {
+        a: "Gluten",
+        a1: "Weizen",
+        a2: "Roggen",
+        a3: "Gerste",
+        a4: "Hafer",
+        a5: "Dinkel",
+        a6: "Kamut",
+        b: "Krebstiere",
+        c: "Eier",
+        d: "Fisch",
+        e: "Erdnüsse",
+        f: "Sojabohnen",
+        g: "Milch",
+        h: "Schalenfrüchte",
+        h1: "Mandel",
+        h2: "Haselnuss",
+        h3: "Walnuss",
+        h4: "Cashewnuss",
+        h5: "Pekannuss",
+        h6: "Paranuss",
+        h7: "Pistazie",
+        h8: "Macadamia/Queenslandnuss",
+        i: "Sellerie",
+        j: "Senf",
+        k: "Sesamsamen",
+        l: "Schwefeldioxid",
+        m: "Lupinen",
+        n: "Weichtiere",
+    },
+    additives: {
+        "1": "mit Farbstoff",
+        "2": "mit Konservierungsstoff",
+        "3": "mit Antioxidationsmittel",
+        "4": "mit Geschmacksverstärker",
+        "5": "geschwefelt",
+        "6": "geschwärzt",
+        "7": "gewachst",
+        "8": "mit Phosphat",
+        "9": "mit Süßungsmittel(n)",
+        "10": "enthält eine Phenylalaninquelle",
+        "11": "kann bei übermäßigem Verzehr abführend wirken",
+        "12": "koffeinhaltig",
+        "13": "chininhaltig",
+    },
+};
 
-async function fetchHtml(url: string): Promise<string> {
+const WEEKDAY_ABBREVS = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+
+async function fetchJson<T>(url: string): Promise<T> {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
@@ -144,248 +221,128 @@ async function fetchHtml(url: string): Promise<string> {
         const response = await fetch(url, {
             headers: {
                 "User-Agent": USER_AGENT,
-                Accept: "text/html,application/xhtml+xml",
+                Accept: "application/json",
             },
             signal: controller.signal,
         });
-
-        if (response.status === 404) {
-            throw new NotFoundError(url);
-        }
 
         if (!response.ok) {
             throw new Error(`HTTP ${response.status} ${response.statusText} for ${url}`);
         }
 
-        return await response.text();
+        return await response.json();
     } finally {
         clearTimeout(timeout);
     }
 }
 
-function parseMenuPage(html: string): ParsedMenu {
-    const $ = load(html);
-    const blocks = $(".box-speiseplan .block-space");
-    if (blocks.length === 0) {
-        throw new Error("Could not locate speiseplan container in page.");
-    }
-
-    const dayMenus: DayMenu[] = [];
-
-    blocks.each((_, block) => {
-        const $block = $(block);
-        const heading = cleanText($block.find("h2").first().text());
-        const startDate = extractFirstDate(heading) ?? new Date();
-
-        const dayNodes = $block.find(".week .day").toArray();
-        const dishRows = $block.find(".dishes .row.list-dish").toArray();
-
-        if (dayNodes.length !== dishRows.length) {
-            console.warn(
-                `Warning: day selector count (${dayNodes.length}) does not match dish rows (${dishRows.length}).`,
-            );
-        }
-
-        let previousDate: Date | null = null;
-
-        for (let index = 0; index < dishRows.length; index += 1) {
-            const label = cleanText($(dayNodes[index]).text());
-            const resolvedDate = resolveDayDate(label, startDate, previousDate);
-            const isoDate = formatIsoDate(resolvedDate);
-
-            const categories = parseDishRow($(dishRows[index]), $);
-            dayMenus.push({
-                date: isoDate,
-                label,
-                categories,
-            });
-
-            previousDate = resolvedDate;
-        }
-    });
-
-    return {
-        days: dayMenus,
-        legend: parseLegend($),
-    };
+function formatDayLabel(dateStr: string): string {
+    const date = new Date(`${dateStr}T00:00:00Z`);
+    const weekday = WEEKDAY_ABBREVS[date.getUTCDay()];
+    const day = String(date.getUTCDate()).padStart(2, "0");
+    const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+    return `${weekday}, ${day}.${month}.`;
 }
 
-function parseLegend($: CheerioAPI): Legend | null {
-    const heading = $(".box-speiseplan h3")
-        .filter((_, element) => cleanText($(element).text()).toLowerCase().startsWith("erläuterungen"))
-        .first();
-
-    if (heading.length === 0) {
-        return null;
-    }
-
-    const row = heading.nextAll(".row").first();
-    if (row.length === 0) {
-        return null;
-    }
-
-    const columns = row.find(".col-sm-4");
-    if (columns.length === 0) {
-        return null;
-    }
-
-    const infoText = cleanText($(columns.get(0)).text());
-    const allergensText = cleanText($(columns.get(1)).text());
-    const additivesText = cleanText($(columns.get(2)).text());
-
-    return {
-        info: parseLegendEntries(infoText, /\(([A-Z]{1,2})\)\s*([^,]+?)(?:(?:,|\.)\s|$)/g),
-        allergens: parseLegendEntries(allergensText, /([a-z]\d?)\)\s*([^,]+?)(?:(?:,|\.)\s|$)/g),
-        additives: parseLegendEntries(additivesText, /(\d{1,2})\)\s*([^,]+?)(?:(?:,|\.)\s|$)/g),
-    };
+function formatPrice(value: number): string {
+    return value.toFixed(2).replace(".", ",") + " €";
 }
 
-function parseLegendEntries(text: string, pattern: RegExp): Record<string, string> {
-    const entries: Record<string, string> = {};
+function convertApiMeal(meal: ApiMeal): MealEntry {
+    const allCodes = [...meal.icons, ...meal.allergens, ...meal.additives];
+    const allergensRaw = allCodes.length > 0 ? allCodes.join(",") : null;
 
-    const body = text.includes(":") ? text.slice(text.indexOf(":") + 1) : text;
-    const regex = new RegExp(pattern.source, pattern.flags);
-
-    let match: RegExpExecArray | null;
-    while ((match = regex.exec(body)) !== null) {
-        const key = cleanText(match[1]);
-        const value = cleanText(match[2]).replace(/\.$/, "");
-        if (key) {
-            entries[key] = value;
-        }
+    const priceValues: number[] = [];
+    const priceLabels: string[] = [];
+    if (meal.price_student != null) {
+        priceValues.push(meal.price_student);
+        priceLabels.push("students");
+    }
+    if (meal.price_employee != null) {
+        priceValues.push(meal.price_employee);
+        priceLabels.push("staff");
+    }
+    if (meal.price_guest != null) {
+        priceValues.push(meal.price_guest);
+        priceLabels.push("guests");
     }
 
-    return entries;
-}
-
-function parseDishRow(row: Cheerio<Element>, $: CheerioAPI): MealCategory[] {
-    const categories: MealCategory[] = [];
-
-    row.find("> .col-md-6").each((_, column) => {
-        const $column = $(column);
-        let current: MealCategory | null = null;
-
-        $column.contents().each((__, node) => {
-            if (node.type !== "tag") {
-                return;
-            }
-            const element = $(node as Element);
-            const tagName = (node as Element).name?.toLowerCase() ?? "";
-
-            if (tagName === "h3") {
-                const title = cleanText(element.text());
-                current = {title, meals: []};
-                categories.push(current);
-                return;
-            }
-
-            if (element.hasClass("item")) {
-                if (!current) {
-                    current = {title: "Uncategorized", meals: []};
-                    categories.push(current);
-                }
-                current.meals.push(parseMeal(element));
-            }
-        });
-    });
-
-    return categories.filter((category) => category.meals.length > 0);
-}
-
-function parseMeal(item: Cheerio<Element>): MealEntry {
-    const heading = item.find("h4").first();
-    const headingClone = heading.clone();
-    headingClone.find("small").remove();
-    const title = cleanText(headingClone.text());
-
-    const allergensRaw = cleanText(heading.find("small").text()).replace(/^\(|\)$/g, "");
-    const allergens =
-        allergensRaw.length > 0
-            ? allergensRaw
-                .split(",")
-                .map((token) => cleanText(token))
-                .filter(Boolean)
-            : [];
-
-    const priceText = cleanText(item.find(".price").text());
-    const priceValues = Array.from(priceText.matchAll(/(\d{1,2},\d{2})/g)).map((match) =>
-        parseLocaleNumber(match[1]),
-    );
+    // Deduplicate if staff === guests (old format used 2 values in that case)
+    if (
+        priceValues.length === 3 &&
+        priceValues[1] === priceValues[2]
+    ) {
+        priceValues.splice(1, 1);
+        priceLabels.splice(1, 1);
+        priceLabels[0] = "students";
+        priceLabels[1] = "guests";
+    }
 
     const price: MealPrice | null =
         priceValues.length > 0
             ? {
-                raw: priceText,
+                raw: priceValues.map(formatPrice).join(" / "),
                 currency: "EUR",
                 values: priceValues,
-                labels: derivePriceLabels(priceValues.length),
+                labels: priceLabels,
             }
             : null;
 
     return {
-        title,
-        allergens,
-        allergensRaw: allergensRaw.length > 0 ? allergensRaw : null,
+        title: meal.title,
+        allergens: allCodes,
+        allergensRaw,
         price,
-        highlight: item.hasClass("item-tip"),
+        highlight: meal.is_featured,
     };
 }
 
-function derivePriceLabels(count: number): string[] {
-    if (count === 2) {
-        return ["students", "guests"];
+function convertApiDay(apiDay: ApiDay): DayMenu {
+    const dateStr = apiDay.date.slice(0, 10);
+
+    const categoryMap = new Map<string, MealEntry[]>();
+    for (const meal of apiDay.meals) {
+        const catName = meal.category.name;
+        if (!categoryMap.has(catName)) {
+            categoryMap.set(catName, []);
+        }
+        categoryMap.get(catName)!.push(convertApiMeal(meal));
     }
-    if (count === 3) {
-        return ["students", "staff", "guests"];
+
+    const categories: MealCategory[] = [];
+    for (const [title, meals] of categoryMap) {
+        categories.push({title, meals});
     }
-    return [];
+
+    return {
+        date: dateStr,
+        label: formatDayLabel(dateStr),
+        categories,
+    };
 }
 
-function extractFirstDate(text: string): Date | null {
-    const match = text.match(/(\d{2})\.(\d{2})\.(\d{4})/);
-    if (!match) {
-        return null;
-    }
-    const [, day, month, year] = match;
-    return new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
-}
+async function fetchCanteenMenus(canteen: CanteenConfig): Promise<DayMenu[]> {
+    const dayMenus: DayMenu[] = [];
+    const seenDates = new Set<string>();
 
-function resolveDayDate(label: string, startDate: Date, previous: Date | null): Date {
-    const match = label.match(/(\d{2})\.(\d{2})\./);
-    if (!match) {
-        throw new Error(`Unable to parse day label "${label}".`);
-    }
-
-    const [, dayToken, monthToken] = match;
-    const day = Number(dayToken);
-    const month = Number(monthToken);
-
-    let year = previous ? previous.getUTCFullYear() : startDate.getUTCFullYear();
-    let candidate = new Date(Date.UTC(year, month - 1, day));
-
-    if (previous && candidate.getTime() < previous.getTime()) {
-        year += 1;
-        candidate = new Date(Date.UTC(year, month - 1, day));
+    for (const period of ["current", "next"] as const) {
+        const url = `${API_BASE}/meal-plans/week/${period}?canteen_id=${canteen.apiId}`;
+        try {
+            const weekData = await fetchJson<ApiWeekResponse>(url);
+            for (const apiDay of weekData.days) {
+                if (apiDay.meals.length === 0) continue;
+                const dayMenu = convertApiDay(apiDay);
+                if (!seenDates.has(dayMenu.date)) {
+                    seenDates.add(dayMenu.date);
+                    dayMenus.push(dayMenu);
+                }
+            }
+        } catch (error) {
+            console.warn(`Warning: failed to fetch ${period} week for ${canteen.name}: ${error}`);
+        }
     }
 
-    if (!previous && candidate.getUTCMonth() !== startDate.getUTCMonth()) {
-        const startYear = startDate.getUTCFullYear();
-        candidate = new Date(Date.UTC(startYear, month - 1, day));
-    }
-
-    return candidate;
-}
-
-function formatIsoDate(date: Date): string {
-    return date.toISOString().slice(0, 10);
-}
-
-function parseLocaleNumber(value: string): number {
-    return Number(value.replace(/\./g, "").replace(",", "."));
-}
-
-function cleanText(value: string): string {
-    return value.replace(/\s+/g, " ").trim();
+    return dayMenus;
 }
 
 function groupByWeek(days: DayMenu[]): WeekPartition[] {
@@ -531,9 +488,8 @@ async function main(): Promise<void> {
 
     for (const canteen of CANTEENS) {
         console.log(`Fetching menus for ${canteen.name} ...`);
-        const html = await fetchHtml(canteen.url);
-        const parsed = parseMenuPage(html);
-        const partitions = groupByWeek(parsed.days);
+        const dayMenus = await fetchCanteenMenus(canteen);
+        const partitions = groupByWeek(dayMenus);
 
         for (const partition of partitions) {
             const key = weekKey(partition.isoYear, partition.isoWeek);
@@ -557,8 +513,8 @@ async function main(): Promise<void> {
 
             entry.canteens[canteen.slug] = {
                 name: canteen.name,
-                sourceUrl: canteen.url,
-                legend: parsed.legend,
+                sourceUrl: canteen.sourceUrl,
+                legend: LEGEND,
                 days: convertDaysToMap(partition.days),
             };
         }
