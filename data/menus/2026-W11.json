@@ -5,7 +5,7 @@
     "from": "2026-03-09",
     "to": "2026-03-13"
   },
-  "generatedAt": "2026-03-04T05:59:22.999Z",
+  "generatedAt": "2026-03-05T06:03:17.578Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -3712,36 +3712,6 @@
           "label": "Mo, 09.03.",
           "categories": [
             {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "j",
-                    "l",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,j,l,1,2",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Aktionsgericht",
               "meals": [
                 {
@@ -3801,32 +3771,6 @@
               ]
             },
             {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Schokopudding",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Buffet",
               "meals": [
                 {
@@ -3844,6 +3788,62 @@
                     "values": [
                       0.9,
                       1.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Tagessuppe",
+              "meals": [
+                {
+                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "allergens": [
+                    "VG",
+                    "f",
+                    "j",
+                    "l",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,f,j,l,1,2",
+                  "price": {
+                    "raw": "1,20 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Dessert 1",
+              "meals": [
+                {
+                  "title": "Schokopudding",
+                  "allergens": [
+                    "VG",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,80 € / 2,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -3874,6 +3874,64 @@
                     "values": [
                       1.8,
                       2.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Tagessuppe",
+              "meals": [
+                {
+                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "allergens": [
+                    "VG",
+                    "f",
+                    "j",
+                    "l",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,f,j,l,1,2",
+                  "price": {
+                    "raw": "1,20 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Burritos mit Reis und Bohnen (VG,a,a1,1) Country Cubes (VG,a,a1,1)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,a,a1,1",
+                  "price": {
+                    "raw": "6,00 € / 8,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      6,
+                      8.5
                     ],
                     "labels": [
                       "students",
@@ -3943,64 +4001,6 @@
                   "highlight": false
                 }
               ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "j",
-                    "l",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,j,l,1,2",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Aktionsgericht",
-              "meals": [
-                {
-                  "title": "Burritos mit Reis und Bohnen (VG,a,a1,1) Country Cubes (VG,a,a1,1)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,a,a1,1",
-                  "price": {
-                    "raw": "6,00 € / 8,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      6,
-                      8.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
             }
           ]
         },
@@ -4008,125 +4008,10 @@
           "label": "Mi, 11.03.",
           "categories": [
             {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Omas Aprikosenkuchen",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "1",
-                    "3"
-                  ],
-                  "allergensRaw": "VG,a,a1,1,3",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "j",
-                    "l",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,j,l,1,2",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Aktionsgericht",
-              "meals": [
-                {
-                  "title": "Flammkuchen \"Mediterran\" (VG,a,a1,f,j,1)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1",
-                  "price": {
-                    "raw": "5,00 € / 7,20 €",
-                    "currency": "EUR",
-                    "values": [
-                      5,
-                      7.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Ananascreme mit Granatapfel Topping",
-                  "allergens": [
-                    "VG",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,1",
-                  "price": {
-                    "raw": "1,70 € / 2,20 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.7,
-                      2.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "Arabisch gefüllte Paprika (VG,a,a1,j,2,4)\n Pilz-Ragout (VG,a,a1,f,j,1)\n Apfelrotkohl (VG,3,9)\n Kohlrabi- Karotten Gemüse (VG,f)",
+                  "title": "Arabisch gefüllte Paprika (VG,a,a1,j,2,4)\n Pilz-Ragout (VG,a,a1,f,j,1)\n Apfelrotkohl (VG,3,9)\n Rahmkartoffeln (VG,f)",
                   "allergens": [
                     "VG",
                     "a",
@@ -4162,6 +4047,42 @@
           "label": "Do, 12.03.",
           "categories": [
             {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Greek-NO Beef Burger mit Wedges (VG,a,a1,a3,f,j,k,1,2,3) Kartoffelwedges (VG,a,a1)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a3",
+                    "f",
+                    "j",
+                    "k",
+                    "1",
+                    "2",
+                    "3"
+                  ],
+                  "allergensRaw": "VG,a,a1,a3,f,j,k,1,2,3",
+                  "price": {
+                    "raw": "7,50 € / 10,70 € / 11,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      7.5,
+                      10.7,
+                      11
+                    ],
+                    "labels": [
+                      "students",
+                      "staff",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Dessert 1",
               "meals": [
                 {
@@ -4178,6 +4099,36 @@
                     "values": [
                       1.8,
                       2.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Tagessuppe",
+              "meals": [
+                {
+                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "allergens": [
+                    "VG",
+                    "f",
+                    "j",
+                    "l",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,f,j,l,1,2",
+                  "price": {
+                    "raw": "1,20 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.2,
+                      2
                     ],
                     "labels": [
                       "students",
@@ -4244,78 +4195,42 @@
                   "highlight": false
                 }
               ]
-            },
-            {
-              "title": "Aktionsgericht",
-              "meals": [
-                {
-                  "title": "Greek-NO Beef Burger mit Wedges (VG,a,a1,a3,f,j,k,1,2,3) Kartoffelwedges (VG,a,a1)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "f",
-                    "j",
-                    "k",
-                    "1",
-                    "2",
-                    "3"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,f,j,k,1,2,3",
-                  "price": {
-                    "raw": "7,50 € / 10,70 € / 11,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      7.5,
-                      10.7,
-                      11
-                    ],
-                    "labels": [
-                      "students",
-                      "staff",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "j",
-                    "l",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,j,l,1,2",
-                  "price": {
-                    "raw": "1,20 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
             }
           ]
         },
         "2026-03-13": {
           "label": "Fr, 13.03.",
           "categories": [
+            {
+              "title": "Kuchen",
+              "meals": [
+                {
+                  "title": "Lemoncake",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "h",
+                    "h7"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,h,h7",
+                  "price": {
+                    "raw": "2,10 € / 2,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.1,
+                      2.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
             {
               "title": "Aktionsgericht",
               "meals": [
@@ -4336,6 +4251,42 @@
                     "values": [
                       6.5,
                       9.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Buffet",
+              "meals": [
+                {
+                  "title": "Klassische Lasagne  (VG,a,a1,f,i,1)\n Gemüseschnitzel (VG,a,a1,a5)\n Malzbiersauce  (VG,a,a1,a3)\n Gebratener Wirsing mit getrockneten Tomaten (VG,3)\n Warmer Kartoffelsalat (VG,a,a1,i,j,2,3,9)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a3",
+                    "a5",
+                    "f",
+                    "i",
+                    "j",
+                    "1",
+                    "2",
+                    "3",
+                    "9"
+                  ],
+                  "allergensRaw": "VG,a,a1,a3,a5,f,i,j,1,2,3,9",
+                  "price": {
+                    "raw": "0,90 € / 1,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      0.9,
+                      1.3
                     ],
                     "labels": [
                       "students",
@@ -4392,72 +4343,6 @@
                     "values": [
                       1.2,
                       2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Klassische Lasagne  (VG,a,a1,f,i,1)\n Gemüseschnitzel (VG,a,a1,a5)\n Malzbiersauce  (VG,a,a1,a3)\n Gebratener Wirsing mit getrockneten Tomaten (VG,3)\n Warmer Kartoffelsalat (VG,a,a1,i,j,2,3,9)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "a5",
-                    "f",
-                    "i",
-                    "j",
-                    "1",
-                    "2",
-                    "3",
-                    "9"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,a5,f,i,j,1,2,3,9",
-                  "price": {
-                    "raw": "0,90 € / 1,30 €",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Lemoncake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "h",
-                    "h7"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,h,h7",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
                     ],
                     "labels": [
                       "students",
