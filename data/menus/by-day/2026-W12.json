@@ -5,7 +5,7 @@
     "from": "2026-03-16",
     "to": "2026-03-20"
   },
-  "generatedAt": "2026-03-11T06:03:47.060Z",
+  "generatedAt": "2026-03-12T06:05:55.102Z",
   "days": {
     "2026-03-16": {
       "label": "Mo, 16.03.",
@@ -912,16 +912,17 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -1981,16 +1982,17 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -2973,16 +2975,17 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -4035,16 +4038,17 @@
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "Asiatische Krautwickel mit Szechuansauce (VG,a,a1,f,k)\n Falafel mit Knoblauchdip  (VG,a,a1,f)\n Ofen-Rosenkohl (VG)\n Ajvar-Gerste (VG,a,a3)",
+                  "title": "Asiatische Krautwickel mit Szechuansauce (VG,a,a1,f,k)\n Falafel mit Knoblauchdip  (VG,a,a1,f)\n Erbsen (VG,1)\n Ajvar-Gerste (VG,a,a3)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
                     "a3",
                     "f",
-                    "k"
+                    "k",
+                    "1"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,f,k",
+                  "allergensRaw": "VG,a,a1,a3,f,k,1",
                   "price": {
                     "raw": "0,90 € / 1,30 €",
                     "currency": "EUR",
@@ -4095,16 +4099,17 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -5026,16 +5031,17 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -5085,17 +5091,16 @@
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "Aubergine mit Schmorzwiebeln überbacken (VG,1)\n Wirsingpflanzerl (VG,a,a1,j)\n Spitzkohl in So-Rahm (VG,f)\n Bratkartoffeln (VG,2)",
+                  "title": "Aubergine mit Schmorzwiebeln überbacken (VG,1)\n Wirsingpflanzerl (VG,a,a1,j)\n Spitzkohl in So-Rahm (VG,f)\n knusprige Röstkartoffeln (VG,1)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
                     "f",
                     "j",
-                    "1",
-                    "2"
+                    "1"
                   ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
+                  "allergensRaw": "VG,a,a1,f,j,1",
                   "price": {
                     "raw": "0,90 € / 1,30 €",
                     "currency": "EUR",
