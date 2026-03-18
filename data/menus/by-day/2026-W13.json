@@ -5,7 +5,7 @@
     "from": "2026-03-23",
     "to": "2026-03-27"
   },
-  "generatedAt": "2026-03-17T06:13:47.560Z",
+  "generatedAt": "2026-03-18T06:13:59.525Z",
   "days": {
     "2026-03-23": {
       "label": "Mo, 23.03.",
@@ -903,6 +903,40 @@
           },
           "categories": [
             {
+              "title": "Buffet",
+              "meals": [
+                {
+                  "title": "Kartoffel-Champi-Wok mit Zwiebel und Aioli (VG,a,a1,f,j,1,2)\n Knusprige Nuggets Sweet Chili Dip (VG,a,a4,f)\n Mandel-Blumenkohl (VG,h,h1)\n Mandelreis (VG,h,h1)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a4",
+                    "f",
+                    "h",
+                    "h1",
+                    "j",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,a,a1,a4,f,h,h1,j,1,2",
+                  "price": {
+                    "raw": "0,90 € / 1,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      0.9,
+                      1.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Tagessuppe",
               "meals": [
                 {
@@ -961,35 +995,6 @@
               ]
             },
             {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Apple Cake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a1,h,h1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Dessert 1",
               "meals": [
                 {
@@ -1005,40 +1010,6 @@
                     "values": [
                       1.8,
                       2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Buffet",
-              "meals": [
-                {
-                  "title": "Kartoffel-Champi-Wok mit Zwiebel und Aioli (VG,a,a1,f,j,1,2)\n Knusprige Nuggets Sweet Chili Dip (VG,a,a4,f)\n \"Pariser\" Karotten (VG)\n Mandelreis (VG,h,h1)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a4",
-                    "f",
-                    "h",
-                    "h1",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,a4,f,h,h1,j,1,2",
-                  "price": {
-                    "raw": "0,90 € / 1,30 €",
-                    "currency": "EUR",
-                    "values": [
-                      0.9,
-                      1.3
                     ],
                     "labels": [
                       "students",
@@ -1963,25 +1934,79 @@
           },
           "categories": [
             {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Langos mit Zwiebeln und Räuchertofu (VG,a,a1,a3,f,j)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a3",
+                    "f",
+                    "j"
+                  ],
+                  "allergensRaw": "VG,a,a1,a3,f,j",
+                  "price": {
+                    "raw": "4,50 € / 6,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.5,
+                      6.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "(B) Gratinierte Kürbis- Tomaten Pfanne (VG)(RUB) (VG,1,3)\n Geschichtete Süsskartoffel-Spinat-Lasagne (VG,a,a1,f,1)\n Risoleekartoffeln (VG,1)\n Geröstete Kichererbsen (VG,a,a1,f,1)",
+                  "title": "Geschichtete Süsskartoffel-Spinat-Lasagne (VG,a,a1,f,1)\n Geschnetzeltes (VG,a,a1,f)\n Risoleekartoffeln (VG,1)\n Geröstete Kichererbsen (VG,a,a1,f,1)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
                     "f",
-                    "1",
-                    "3"
+                    "1"
                   ],
-                  "allergensRaw": "VG,a,a1,f,1,3",
+                  "allergensRaw": "VG,a,a1,f,1",
                   "price": {
                     "raw": "0,90 € / 1,30 €",
                     "currency": "EUR",
                     "values": [
                       0.9,
                       1.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Dessert 1",
+              "meals": [
+                {
+                  "title": "Quarkspeise mit Schattenmorellen",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,80 € / 2,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -2040,61 +2065,6 @@
                     "values": [
                       2.1,
                       2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Quarkspeise mit Schattenmorellen",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Aktionsgericht",
-              "meals": [
-                {
-                  "title": "Langos mit Zwiebeln und Räuchertofu (VG,a,a1,a3,f,j)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "f",
-                    "j"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,f,j",
-                  "price": {
-                    "raw": "4,50 € / 6,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.5,
-                      6.4
                     ],
                     "labels": [
                       "students",
@@ -4016,33 +3986,6 @@
           },
           "categories": [
             {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Mango-Kokos-Bowl",
-                  "allergens": [
-                    "VG",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,h,h1",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Tagessuppe",
               "meals": [
                 {
@@ -4073,25 +4016,22 @@
               ]
             },
             {
-              "title": "Aktionsgericht",
+              "title": "Dessert 1",
               "meals": [
                 {
-                  "title": "Exotischer Chiasamen Burger mit Country Cubs (VG,a,a1,a3,j,1)",
+                  "title": "Mango-Kokos-Bowl",
                   "allergens": [
                     "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "j",
-                    "1"
+                    "h",
+                    "h1"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,j,1",
+                  "allergensRaw": "VG,h,h1",
                   "price": {
-                    "raw": "6,50 € / 9,20 €",
+                    "raw": "1,80 € / 2,40 €",
                     "currency": "EUR",
                     "values": [
-                      6.5,
-                      9.2
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -4123,6 +4063,36 @@
                     "values": [
                       0.9,
                       1.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Exotischer Chiasamen Burger mit Country Cubs (VG,a,a1,a3,j,1)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "a3",
+                    "j",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,a,a1,a3,j,1",
+                  "price": {
+                    "raw": "6,50 € / 9,20 €",
+                    "currency": "EUR",
+                    "values": [
+                      6.5,
+                      9.2
                     ],
                     "labels": [
                       "students",
@@ -5036,32 +5006,6 @@
               ]
             },
             {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Panna-Cotta mit Mangospiegel",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Kuchen",
               "meals": [
                 {
@@ -5079,6 +5023,32 @@
                     "values": [
                       2.1,
                       2.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Dessert 1",
+              "meals": [
+                {
+                  "title": "Panna-Cotta mit Mangospiegel",
+                  "allergens": [
+                    "VG",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,80 € / 2,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
