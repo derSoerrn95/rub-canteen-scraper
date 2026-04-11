@@ -5,7 +5,7 @@
     "from": "2026-04-13",
     "to": "2026-04-17"
   },
-  "generatedAt": "2026-04-10T07:00:59.737Z",
+  "generatedAt": "2026-04-11T06:13:57.272Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -229,24 +229,26 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Taxi Teller",
+                  "title": "Taxi Teller mit Geflügelcurrywurst, Döner, Pommes , Tsatziki und Krautsalat dazu original Pepsi Cola 0,5 L",
                   "allergens": [
                     "G",
                     "H",
                     "g",
                     "i",
                     "j",
+                    "12",
+                    "1",
                     "2",
                     "8",
                     "9"
                   ],
-                  "allergensRaw": "G,H,g,i,j,2,8,9",
+                  "allergensRaw": "G,H,g,i,j,12,1,2,8,9",
                   "price": {
-                    "raw": "6,50 € / 8,90 €",
+                    "raw": "6,90 € / 9,50 €",
                     "currency": "EUR",
                     "values": [
-                      6.5,
-                      8.9
+                      6.9,
+                      9.5
                     ],
                     "labels": [
                       "students",
@@ -549,24 +551,26 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Taxi Teller",
+                  "title": "Taxi Teller mit Geflügelcurrywurst, Döner, Pommes , Tsatziki und Krautsalat dazu original Pepsi Cola 0,5 L",
                   "allergens": [
                     "G",
                     "H",
                     "g",
                     "i",
                     "j",
+                    "12",
+                    "1",
                     "2",
                     "8",
                     "9"
                   ],
-                  "allergensRaw": "G,H,g,i,j,2,8,9",
+                  "allergensRaw": "G,H,g,i,j,12,1,2,8,9",
                   "price": {
-                    "raw": "6,50 € / 8,90 €",
+                    "raw": "6,90 € / 9,50 €",
                     "currency": "EUR",
                     "values": [
-                      6.5,
-                      8.9
+                      6.9,
+                      9.5
                     ],
                     "labels": [
                       "students",
@@ -3716,16 +3720,19 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,a,a1,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,a,a1,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3782,16 +3789,19 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,a,a1,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,a,a1,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -3903,16 +3913,19 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,a,a1,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,a,a1,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -4052,16 +4065,17 @@
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "Süßkartoffel-Paprika Curry (VG,a,a1,f,2)\n vegane Bällchen mit Senfsauce (VG,f,j)\n Spitzkohl in So-Rahm (VG,f)\n Salzkartoffeln (VG)",
+                  "title": "Süßkartoffel-Paprika Curry (VG,a,a1,f,2)\n vegane Bällchen mit Senfsauce (VG,a,a1,a3,f,j)\n Spitzkohl in So-Rahm (VG,f)\n Salzkartoffeln (VG)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
+                    "a3",
                     "f",
                     "j",
                     "2"
                   ],
-                  "allergensRaw": "VG,a,a1,f,j,2",
+                  "allergensRaw": "VG,a,a1,a3,f,j,2",
                   "price": {
                     "raw": "0,90 € / 1,30 €",
                     "currency": "EUR",
@@ -4170,16 +4184,19 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,a,a1,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,a,a1,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
@@ -4205,16 +4222,19 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Tagessuppe (VG,f,j,l,1,2)",
+                  "title": "Tagessuppe (VG,a,a1,e,f,j,l,1,2)",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
+                    "e",
                     "f",
                     "j",
                     "l",
                     "1",
                     "2"
                   ],
-                  "allergensRaw": "VG,f,j,l,1,2",
+                  "allergensRaw": "VG,a,a1,e,f,j,l,1,2",
                   "price": {
                     "raw": "1,20 € / 2,00 €",
                     "currency": "EUR",
