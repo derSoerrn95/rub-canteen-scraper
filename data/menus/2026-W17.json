@@ -5,7 +5,7 @@
     "from": "2026-04-20",
     "to": "2026-04-24"
   },
-  "generatedAt": "2026-04-16T07:03:24.653Z",
+  "generatedAt": "2026-04-17T07:04:08.653Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -88,16 +88,14 @@
                   ],
                   "allergensRaw": "V,a,a1,c,g,j",
                   "price": {
-                    "raw": "4,20 € / 5,20 € / 0,00 €",
+                    "raw": "6,90 € / 9,50 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      5.2,
-                      0
+                      6.9,
+                      9.5
                     ],
                     "labels": [
                       "students",
-                      "staff",
                       "guests"
                     ]
                   },
@@ -508,11 +506,11 @@
                   ],
                   "allergensRaw": "VG,a,a1,k,l,2,3,5,9",
                   "price": {
-                    "raw": "5,20 € / 6,50 €",
+                    "raw": "6,90 € / 9,50 €",
                     "currency": "EUR",
                     "values": [
-                      5.2,
-                      6.5
+                      6.9,
+                      9.5
                     ],
                     "labels": [
                       "students",
@@ -885,18 +883,18 @@
                   "title": "Banh Mi mit Tofu,fermentiertes Gemüse und Chips",
                   "allergens": [
                     "A",
-                    "VG",
+                    "V",
                     "a",
                     "a1",
                     "a3",
                     "f",
+                    "g",
                     "k",
                     "l",
-                    "1",
                     "2",
                     "5"
                   ],
-                  "allergensRaw": "A,VG,a,a1,a3,f,k,l,1,2,5",
+                  "allergensRaw": "A,V,a,a1,a3,f,g,k,l,2,5",
                   "price": {
                     "raw": "7,00 € / 8,50 €",
                     "currency": "EUR",
