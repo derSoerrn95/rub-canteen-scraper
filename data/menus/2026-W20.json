@@ -5,7 +5,7 @@
     "from": "2026-05-11",
     "to": "2026-05-15"
   },
-  "generatedAt": "2026-05-14T08:03:43.042Z",
+  "generatedAt": "2026-05-15T08:16:44.540Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -907,6 +907,31 @@
           "label": "Fr, 15.05.",
           "categories": [
             {
+              "title": "Beilage 2",
+              "meals": [
+                {
+                  "title": "Kaisergemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Falafel Teller",
               "meals": [
                 {
@@ -927,31 +952,6 @@
                     "values": [
                       3.4,
                       5.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Beilage 2",
-              "meals": [
-                {
-                  "title": "Salzkartoffeln",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
                     ],
                     "labels": [
                       "students",
@@ -996,7 +996,7 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Köttbullar mit Preiselbeeren und Kartoffelpüree",
+                  "title": "Köttbullar mit Preiselbeeren und Kartoffelpüree , Rote-Bete Salat",
                   "allergens": [
                     "R",
                     "a",
@@ -1013,6 +1013,31 @@
                     "values": [
                       6.9,
                       8.9
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage 3",
+              "meals": [
+                {
+                  "title": "Salzkartoffeln",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
                     ],
                     "labels": [
                       "students",
@@ -1045,6 +1070,35 @@
                     "values": [
                       2.5,
                       4.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage 4",
+              "meals": [
+                {
+                  "title": "Schupfnudeln",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c",
+                    "1"
+                  ],
+                  "allergensRaw": "V,a,a1,c,1",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
                     ],
                     "labels": [
                       "students",
