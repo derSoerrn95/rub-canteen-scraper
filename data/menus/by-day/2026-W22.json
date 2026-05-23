@@ -5,7 +5,7 @@
     "from": "2026-05-25",
     "to": "2026-05-29"
   },
-  "generatedAt": "2026-05-22T08:31:44.278Z",
+  "generatedAt": "2026-05-23T07:43:28.791Z",
   "days": {
     "2026-05-25": {
       "label": "Mo, 25.05.",
@@ -616,10 +616,10 @@
           },
           "categories": [
             {
-              "title": "Pizza [4]",
+              "title": "Pizza [2]",
               "meals": [
                 {
-                  "title": "Pizza \"Spinat\" mit Zwiebeln und Knoblauch",
+                  "title": "Pizza \"Margherita\"",
                   "allergens": [
                     "V",
                     "a",
@@ -629,11 +629,11 @@
                   ],
                   "allergensRaw": "V,a,a1,a3,g",
                   "price": {
-                    "raw": "4,20 € / 6,10 €",
+                    "raw": "3,90 € / 5,60 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      6.1
+                      3.9,
+                      5.6
                     ],
                     "labels": [
                       "students",
@@ -704,6 +704,35 @@
               ]
             },
             {
+              "title": "Tagesdessert 1",
+              "meals": [
+                {
+                  "title": "Grießpudding mit Roter Grütze",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c",
+                    "g"
+                  ],
+                  "allergensRaw": "V,a,a1,c,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Salat 2",
               "meals": [
                 {
@@ -747,35 +776,6 @@
                     "values": [
                       4.1,
                       5.8
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagesdessert 1",
-              "meals": [
-                {
-                  "title": "Grießpudding mit Roter Grütze",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "c",
-                    "g"
-                  ],
-                  "allergensRaw": "V,a,a1,c,g",
-                  "price": {
-                    "raw": "1,40 € / 2,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.4,
-                      2
                     ],
                     "labels": [
                       "students",
@@ -1035,35 +1035,6 @@
                   "highlight": false
                 }
               ]
-            },
-            {
-              "title": "Pizza [2]",
-              "meals": [
-                {
-                  "title": "Pizza \"Margherita\"",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "a3",
-                    "g"
-                  ],
-                  "allergensRaw": "V,a,a1,a3,g",
-                  "price": {
-                    "raw": "3,90 € / 5,60 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.9,
-                      5.6
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
             }
           ]
         },
@@ -1134,21 +1105,20 @@
               "title": "Buffet",
               "meals": [
                 {
-                  "title": "Spargelcurry  (VG,a,a1,f,i,k)\n Brokkoli-Nussecke (VG,a,a1,a4,h,h1,h2)\n Sesam-Karotten (VG,k)\n Dillkartoffeln \"Risolee\" (VG,1)",
+                  "title": "Spargelcurry  (VG,a,a1,f,i,k)\n Hackbällchen vegan (VG,a,a1,a3,f)\n scharfe Paprikasauce (VG,2,9)\n Sesam-Karotten (VG,k)\n Dillkartoffeln \"Risolee\" (VG,1)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "a4",
+                    "a3",
                     "f",
-                    "h",
-                    "h1",
-                    "h2",
                     "i",
                     "k",
-                    "1"
+                    "1",
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "VG,a,a1,a4,f,h,h1,h2,i,k,1",
+                  "allergensRaw": "VG,a,a1,a3,f,i,k,1,2,9",
                   "price": {
                     "raw": "0,90 € / 1,30 €",
                     "currency": "EUR",
@@ -3687,6 +3657,32 @@
               ]
             },
             {
+              "title": "Tagesdessert 1",
+              "meals": [
+                {
+                  "title": "Milchreis mit Zimt",
+                  "allergens": [
+                    "V",
+                    "g"
+                  ],
+                  "allergensRaw": "V,g",
+                  "price": {
+                    "raw": "1,40 € / 2,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.4,
+                      2
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Pizza [2]",
               "meals": [
                 {
@@ -3716,15 +3712,23 @@
               ]
             },
             {
-              "title": "Salat 2",
+              "title": "Salat 1",
               "meals": [
                 {
-                  "title": "Bohnensalat",
+                  "title": "Q-Mix-Salat",
                   "allergens": [
-                    "VG",
-                    "f"
+                    "V",
+                    "c",
+                    "f",
+                    "g",
+                    "j",
+                    "l",
+                    "1",
+                    "2",
+                    "3",
+                    "5"
                   ],
-                  "allergensRaw": "VG,f",
+                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
                   "price": {
                     "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
@@ -3742,15 +3746,14 @@
               ]
             },
             {
-              "title": "Tagesdessert 1",
+              "title": "Tagesdessert 3",
               "meals": [
                 {
-                  "title": "Milchreis mit Zimt",
+                  "title": "Himbeercreme",
                   "allergens": [
-                    "V",
                     "g"
                   ],
-                  "allergensRaw": "V,g",
+                  "allergensRaw": "g",
                   "price": {
                     "raw": "1,40 € / 2,00 €",
                     "currency": "EUR",
@@ -3788,40 +3791,6 @@
                     "values": [
                       4.4,
                       6.2
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Salat 1",
-              "meals": [
-                {
-                  "title": "Q-Mix-Salat",
-                  "allergens": [
-                    "V",
-                    "c",
-                    "f",
-                    "g",
-                    "j",
-                    "l",
-                    "1",
-                    "2",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "V,c,f,g,j,l,1,2,3,5",
-                  "price": {
-                    "raw": "1,20 € / 1,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.2,
-                      1.7
                     ],
                     "labels": [
                       "students",
@@ -4018,20 +3987,21 @@
               ]
             },
             {
-              "title": "Tagesdessert 3",
+              "title": "Salat 2",
               "meals": [
                 {
-                  "title": "Himbeercreme",
+                  "title": "Bohnensalat",
                   "allergens": [
-                    "g"
+                    "VG",
+                    "f"
                   ],
-                  "allergensRaw": "g",
+                  "allergensRaw": "VG,f",
                   "price": {
-                    "raw": "1,40 € / 2,00 €",
+                    "raw": "1,20 € / 1,70 €",
                     "currency": "EUR",
                     "values": [
-                      1.4,
-                      2
+                      1.2,
+                      1.7
                     ],
                     "labels": [
                       "students",
