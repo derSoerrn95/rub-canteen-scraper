@@ -5,7 +5,7 @@
     "from": "2026-07-27",
     "to": "2026-07-31"
   },
-  "generatedAt": "2026-07-21T07:41:54.791Z",
+  "generatedAt": "2026-07-22T07:42:12.216Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -3614,21 +3614,21 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Calzone -gefüllte Pizza- (VG,a,a1,l,1)",
+                  "title": "Fruchtige Currywurst mit Pommes frites (VG,1,2,9,12)",
                   "allergens": [
                     "VG",
-                    "a",
-                    "a1",
-                    "l",
-                    "1"
+                    "12",
+                    "1",
+                    "2",
+                    "9"
                   ],
-                  "allergensRaw": "VG,a,a1,l,1",
+                  "allergensRaw": "VG,12,1,2,9",
                   "price": {
-                    "raw": "5,00 € / 7,10 €",
+                    "raw": "6,00 € / 8,50 €",
                     "currency": "EUR",
                     "values": [
-                      5,
-                      7.1
+                      6,
+                      8.5
                     ],
                     "labels": [
                       "students",
@@ -4206,21 +4206,21 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Bratwurst vegan mit Currysauce, Pommes frites und Bohnensalat (VG,j,1,2,9)",
+                  "title": "Calzone -gefüllte Pizza- (VG,a,a1,l,1)",
                   "allergens": [
                     "VG",
-                    "j",
-                    "1",
-                    "2",
-                    "9"
+                    "a",
+                    "a1",
+                    "l",
+                    "1"
                   ],
-                  "allergensRaw": "VG,j,1,2,9",
+                  "allergensRaw": "VG,a,a1,l,1",
                   "price": {
-                    "raw": "6,00 € / 8,50 €",
+                    "raw": "5,00 € / 7,10 €",
                     "currency": "EUR",
                     "values": [
-                      6,
-                      8.5
+                      5,
+                      7.1
                     ],
                     "labels": [
                       "students",
