@@ -5,7 +5,7 @@
     "from": "2026-07-27",
     "to": "2026-07-31"
   },
-  "generatedAt": "2026-07-22T07:42:12.216Z",
+  "generatedAt": "2026-07-23T07:43:53.706Z",
   "days": {
     "2026-07-27": {
       "label": "Mo, 27.07.",
@@ -3112,25 +3112,24 @@
           },
           "categories": [
             {
-              "title": "Komponente 1",
+              "title": "Extra 2.0 [1]",
               "meals": [
                 {
-                  "title": "Thai-Chicken-Curry",
+                  "title": "Mac and Cheese",
                   "allergens": [
-                    "G",
+                    "V",
                     "a",
                     "a1",
-                    "f",
-                    "i",
-                    "k"
+                    "g",
+                    "1"
                   ],
-                  "allergensRaw": "G,a,a1,f,i,k",
+                  "allergensRaw": "V,a,a1,g,1",
                   "price": {
-                    "raw": "3,40 € / 5,60 €",
+                    "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
                     "values": [
-                      3.4,
-                      5.6
+                      2.5,
+                      4.5
                     ],
                     "labels": [
                       "students",
@@ -3356,6 +3355,36 @@
                     "values": [
                       1,
                       1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Komponente 1",
+              "meals": [
+                {
+                  "title": "Thai-Chicken-Curry",
+                  "allergens": [
+                    "G",
+                    "a",
+                    "a1",
+                    "f",
+                    "i",
+                    "k"
+                  ],
+                  "allergensRaw": "G,a,a1,f,i,k",
+                  "price": {
+                    "raw": "3,40 € / 5,60 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.4,
+                      5.6
                     ],
                     "labels": [
                       "students",
@@ -4101,31 +4130,6 @@
           },
           "categories": [
             {
-              "title": "Beilage 1",
-              "meals": [
-                {
-                  "title": "Blattspinat",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Falafel Teller",
               "meals": [
                 {
@@ -4319,6 +4323,31 @@
                     "values": [
                       2.5,
                       4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage 1",
+              "meals": [
+                {
+                  "title": "Blattspinat",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
                     ],
                     "labels": [
                       "students",
