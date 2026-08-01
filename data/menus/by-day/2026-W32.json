@@ -5,7 +5,7 @@
     "from": "2026-08-03",
     "to": "2026-08-07"
   },
-  "generatedAt": "2026-07-31T08:09:16.023Z",
+  "generatedAt": "2026-08-01T07:37:31.504Z",
   "days": {
     "2026-08-03": {
       "label": "Mo, 03.08.",
@@ -103,13 +103,16 @@
               "title": "Komponente 1",
               "meals": [
                 {
-                  "title": "Putensteak mit Schnittlauchdip",
+                  "title": "Putensteak mit Paprikarahmsauce",
                   "allergens": [
                     "G",
+                    "a",
+                    "a1",
                     "g",
-                    "1"
+                    "1",
+                    "3"
                   ],
-                  "allergensRaw": "G,g,1",
+                  "allergensRaw": "G,a,a1,g,1,3",
                   "price": {
                     "raw": "3,40 € / 5,60 €",
                     "currency": "EUR",
