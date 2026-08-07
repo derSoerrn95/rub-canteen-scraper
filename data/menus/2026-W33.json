@@ -5,7 +5,7 @@
     "from": "2026-08-10",
     "to": "2026-08-14"
   },
-  "generatedAt": "2026-08-06T07:48:42.703Z",
+  "generatedAt": "2026-08-07T06:18:57.271Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -105,91 +105,6 @@
               ]
             },
             {
-              "title": "Falafel Teller",
-              "meals": [
-                {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
-                  "price": {
-                    "raw": "3,40 € / 5,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.4,
-                      5.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Vegetarische Menükomponente",
-              "meals": [
-                {
-                  "title": "Veganes Gyros mit Tzaziki",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "i"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,i",
-                  "price": {
-                    "raw": "2,90 € / 5,30 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.9,
-                      5.3
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Beilage 2",
-              "meals": [
-                {
-                  "title": "Djuvec-Reis",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Vegetarischer Sprinter",
               "meals": [
                 {
@@ -251,6 +166,38 @@
               ]
             },
             {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Spaghetti Bolognese",
+                  "allergens": [
+                    "R",
+                    "a",
+                    "a1",
+                    "a3",
+                    "c",
+                    "g",
+                    "i",
+                    "2"
+                  ],
+                  "allergensRaw": "R,a,a1,a3,c,g,i,2",
+                  "price": {
+                    "raw": "4,40 € / 5,90 €",
+                    "currency": "EUR",
+                    "values": [
+                      4.4,
+                      5.9
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Komponente 1",
               "meals": [
                 {
@@ -266,6 +213,35 @@
                     "values": [
                       3.5,
                       5.6
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Vegetarische Menükomponente",
+              "meals": [
+                {
+                  "title": "Veganes Gyros mit Tzaziki",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "i"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,i",
+                  "price": {
+                    "raw": "2,90 € / 5,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.9,
+                      5.3
                     ],
                     "labels": [
                       "students",
@@ -301,6 +277,62 @@
                   "highlight": false
                 }
               ]
+            },
+            {
+              "title": "Beilage 2",
+              "meals": [
+                {
+                  "title": "Djuvec-Reis",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Falafel Teller",
+              "meals": [
+                {
+                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "j",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,j,1,2",
+                  "price": {
+                    "raw": "3,40 € / 5,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.4,
+                      5.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
             }
           ]
         },
@@ -308,27 +340,21 @@
           "label": "Di, 11.08.",
           "categories": [
             {
-              "title": "Nudeltheke",
+              "title": "Beilage 1",
               "meals": [
                 {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "title": "Leipziger Allerlei in Rahm",
                   "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "f",
-                    "g",
-                    "i",
-                    "1",
-                    "3"
+                    "VG",
+                    "f"
                   ],
-                  "allergensRaw": "V,a,a1,f,g,i,1,3",
+                  "allergensRaw": "VG,f",
                   "price": {
-                    "raw": "2,50 € / 4,40 €",
+                    "raw": "1,00 € / 1,50 €",
                     "currency": "EUR",
                     "values": [
-                      2.5,
-                      4.4
+                      1,
+                      1.5
                     ],
                     "labels": [
                       "students",
@@ -370,26 +396,59 @@
               ]
             },
             {
-              "title": "Falafel Teller",
+              "title": "Vegetarischer Sprinter",
               "meals": [
                 {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
+                  "title": "Kartoffeleintopf mit Brötchen",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
+                    "a3",
+                    "i",
+                    "l",
+                    "3",
+                    "5"
                   ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
+                  "allergensRaw": "VG,a,a1,a3,i,l,3,5",
                   "price": {
-                    "raw": "3,40 € / 5,50 €",
+                    "raw": "2,50 € / 4,50 €",
                     "currency": "EUR",
                     "values": [
-                      3.4,
-                      5.5
+                      2.5,
+                      4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Nudeltheke",
+              "meals": [
+                {
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "i",
+                    "1",
+                    "3"
+                  ],
+                  "allergensRaw": "V,a,a1,f,g,i,1,3",
+                  "price": {
+                    "raw": "2,50 € / 4,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.4
                     ],
                     "labels": [
                       "students",
@@ -432,21 +491,26 @@
               ]
             },
             {
-              "title": "Beilage 1",
+              "title": "Falafel Teller",
               "meals": [
                 {
-                  "title": "Leipziger Allerlei in Rahm",
+                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
                   "allergens": [
                     "VG",
-                    "f"
+                    "a",
+                    "a1",
+                    "f",
+                    "j",
+                    "1",
+                    "2"
                   ],
-                  "allergensRaw": "VG,f",
+                  "allergensRaw": "VG,a,a1,f,j,1,2",
                   "price": {
-                    "raw": "1,00 € / 1,50 €",
+                    "raw": "3,40 € / 5,50 €",
                     "currency": "EUR",
                     "values": [
-                      1,
-                      1.5
+                      3.4,
+                      5.5
                     ],
                     "labels": [
                       "students",
@@ -472,38 +536,6 @@
                     "values": [
                       1,
                       1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Vegetarischer Sprinter",
-              "meals": [
-                {
-                  "title": "Kartoffeleintopf mit Brötchen",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
-                    "i",
-                    "l",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "VG,a,a1,a3,i,l,3,5",
-                  "price": {
-                    "raw": "2,50 € / 4,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.5
                     ],
                     "labels": [
                       "students",
@@ -612,100 +644,6 @@
               ]
             },
             {
-              "title": "Nudeltheke",
-              "meals": [
-                {
-                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "f",
-                    "g",
-                    "i",
-                    "1",
-                    "3"
-                  ],
-                  "allergensRaw": "V,a,a1,f,g,i,1,3",
-                  "price": {
-                    "raw": "2,50 € / 4,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Döner",
-              "meals": [
-                {
-                  "title": "Hähnchendöner mit Pommes und Salat",
-                  "allergens": [
-                    "G",
-                    "H",
-                    "g",
-                    "i",
-                    "j",
-                    "2",
-                    "8"
-                  ],
-                  "allergensRaw": "G,H,g,i,j,2,8",
-                  "price": {
-                    "raw": "4,70 € / 6,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.7,
-                      6.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Falafel Teller",
-              "meals": [
-                {
-                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f",
-                    "j",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,j,1,2",
-                  "price": {
-                    "raw": "3,40 € / 5,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      3.4,
-                      5.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Beilage 1",
               "meals": [
                 {
@@ -784,81 +722,28 @@
                   "highlight": false
                 }
               ]
-            }
-          ]
-        },
-        "2026-08-13": {
-          "label": "Do, 13.08.",
-          "categories": [
-            {
-              "title": "Beilage 1",
-              "meals": [
-                {
-                  "title": "Kaisergemüse",
-                  "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
             },
             {
-              "title": "Beilage 2",
+              "title": "Döner",
               "meals": [
                 {
-                  "title": "Reis",
+                  "title": "Hähnchendöner mit Pommes und Salat",
                   "allergens": [
-                    "VG"
-                  ],
-                  "allergensRaw": "VG",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Vegetarischer Sprinter",
-              "meals": [
-                {
-                  "title": "Blumenkohl-Kartoffel-Curry",
-                  "allergens": [
-                    "VG",
-                    "l",
+                    "G",
+                    "H",
+                    "g",
+                    "i",
+                    "j",
                     "2",
-                    "3",
-                    "5"
+                    "8"
                   ],
-                  "allergensRaw": "VG,l,2,3,5",
+                  "allergensRaw": "G,H,g,i,j,2,8",
                   "price": {
-                    "raw": "2,50 € / 4,50 €",
+                    "raw": "4,70 € / 6,70 €",
                     "currency": "EUR",
                     "values": [
-                      2.5,
-                      4.5
+                      4.7,
+                      6.7
                     ],
                     "labels": [
                       "students",
@@ -870,22 +755,26 @@
               ]
             },
             {
-              "title": "Vegetarische Menükomponente",
+              "title": "Falafel Teller",
               "meals": [
                 {
-                  "title": "Mediterrane Tofuschnitte mit Cacciatore Sauce",
+                  "title": "Falafel Teller mit Pommes oder Reis und Salat",
                   "allergens": [
                     "VG",
+                    "a",
+                    "a1",
                     "f",
-                    "6"
+                    "j",
+                    "1",
+                    "2"
                   ],
-                  "allergensRaw": "VG,f,6",
+                  "allergensRaw": "VG,a,a1,f,j,1,2",
                   "price": {
-                    "raw": "2,70 € / 4,90 €",
+                    "raw": "3,40 € / 5,50 €",
                     "currency": "EUR",
                     "values": [
-                      2.7,
-                      4.9
+                      3.4,
+                      5.5
                     ],
                     "labels": [
                       "students",
@@ -918,6 +807,36 @@
                     "values": [
                       2.5,
                       4.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            }
+          ]
+        },
+        "2026-08-13": {
+          "label": "Do, 13.08.",
+          "categories": [
+            {
+              "title": "Beilage 1",
+              "meals": [
+                {
+                  "title": "Kaisergemüse",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
                     ],
                     "labels": [
                       "students",
@@ -1015,6 +934,119 @@
                   "highlight": false
                 }
               ]
+            },
+            {
+              "title": "Vegetarischer Sprinter",
+              "meals": [
+                {
+                  "title": "Blumenkohl-Kartoffel-Curry",
+                  "allergens": [
+                    "VG",
+                    "l",
+                    "2",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "VG,l,2,3,5",
+                  "price": {
+                    "raw": "2,50 € / 4,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Vegetarische Menükomponente",
+              "meals": [
+                {
+                  "title": "Mediterrane Tofuschnitte mit Cacciatore Sauce",
+                  "allergens": [
+                    "VG",
+                    "f",
+                    "6"
+                  ],
+                  "allergensRaw": "VG,f,6",
+                  "price": {
+                    "raw": "2,70 € / 4,90 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.7,
+                      4.9
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage 2",
+              "meals": [
+                {
+                  "title": "Reis",
+                  "allergens": [
+                    "VG"
+                  ],
+                  "allergensRaw": "VG",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Nudeltheke",
+              "meals": [
+                {
+                  "title": "Penne oder Vollkornspiralen mit Die_ Bolo , Champignonsauce oder Käsesauce dazu geriebener Gouda und Kräuter",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "f",
+                    "g",
+                    "i",
+                    "1",
+                    "3"
+                  ],
+                  "allergensRaw": "V,a,a1,f,g,i,1,3",
+                  "price": {
+                    "raw": "2,50 € / 4,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
             }
           ]
         },
@@ -1079,62 +1111,6 @@
               ]
             },
             {
-              "title": "Vegetarische Menükomponente",
-              "meals": [
-                {
-                  "title": "Maultaschen mit Gemüsefüllung und Kräuter-Sauerrahmsauce",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "c",
-                    "g",
-                    "i"
-                  ],
-                  "allergensRaw": "V,a,a1,c,g,i",
-                  "price": {
-                    "raw": "2,70 € / 5,00 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.7,
-                      5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Beilage 1",
-              "meals": [
-                {
-                  "title": "Erbsen",
-                  "allergens": [
-                    "VG",
-                    "1"
-                  ],
-                  "allergensRaw": "VG,1",
-                  "price": {
-                    "raw": "1,00 € / 1,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      1,
-                      1.5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Komponente 1",
               "meals": [
                 {
@@ -1153,34 +1129,6 @@
                     "values": [
                       2.7,
                       5
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Vegetarischer Sprinter",
-              "meals": [
-                {
-                  "title": "Mexikanischer Gemüse-Nacho-Auflauf",
-                  "allergens": [
-                    "VG",
-                    "f",
-                    "1",
-                    "2"
-                  ],
-                  "allergensRaw": "VG,f,1,2",
-                  "price": {
-                    "raw": "2,50 € / 4,50 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.5,
-                      4.5
                     ],
                     "labels": [
                       "students",
@@ -1243,6 +1191,90 @@
                     "values": [
                       4.7,
                       6.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Vegetarischer Sprinter",
+              "meals": [
+                {
+                  "title": "Mexikanischer Gemüse-Nacho-Auflauf",
+                  "allergens": [
+                    "VG",
+                    "f",
+                    "1",
+                    "2"
+                  ],
+                  "allergensRaw": "VG,f,1,2",
+                  "price": {
+                    "raw": "2,50 € / 4,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.5,
+                      4.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Beilage 1",
+              "meals": [
+                {
+                  "title": "Erbsen",
+                  "allergens": [
+                    "VG",
+                    "1"
+                  ],
+                  "allergensRaw": "VG,1",
+                  "price": {
+                    "raw": "1,00 € / 1,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      1,
+                      1.5
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Vegetarische Menükomponente",
+              "meals": [
+                {
+                  "title": "Maultaschen mit Gemüsefüllung und Kräuter-Sauerrahmsauce",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "c",
+                    "g",
+                    "i"
+                  ],
+                  "allergensRaw": "V,a,a1,c,g,i",
+                  "price": {
+                    "raw": "2,70 € / 5,00 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.7,
+                      5
                     ],
                     "labels": [
                       "students",
