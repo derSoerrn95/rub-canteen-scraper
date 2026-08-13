@@ -5,7 +5,7 @@
     "from": "2026-08-17",
     "to": "2026-08-21"
   },
-  "generatedAt": "2026-08-12T06:42:08.326Z",
+  "generatedAt": "2026-08-13T06:45:22.276Z",
   "days": {
     "2026-08-17": {
       "label": "Mo, 17.08.",
@@ -2371,24 +2371,26 @@
           },
           "categories": [
             {
-              "title": "Pizza [3]",
+              "title": "Pizza  [1]",
               "meals": [
                 {
-                  "title": "Pizza \"Vegan\" mit Brokkoli, Paprika und Peperoni (Kein Käse)",
+                  "title": "Pizza \"Serrano\" mit Serranoschinken",
                   "allergens": [
-                    "VG",
+                    "S",
                     "a",
                     "a1",
                     "a3",
-                    "1"
+                    "g",
+                    "2",
+                    "3"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,1",
+                  "allergensRaw": "S,a,a1,a3,g,2,3",
                   "price": {
-                    "raw": "4,10 € / 5,80 €",
+                    "raw": "4,40 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.8
+                      4.4,
+                      6.4
                     ],
                     "labels": [
                       "students",
@@ -2426,27 +2428,24 @@
               ]
             },
             {
-              "title": "Pizza  [1]",
+              "title": "Pizza [3]",
               "meals": [
                 {
-                  "title": "Pizza \"Hawaii\" mit Schinken und Ananas",
+                  "title": "Pizza \"Vegan\" mit Brokkoli, Paprika und Peperoni (Kein Käse)",
                   "allergens": [
-                    "S",
+                    "VG",
                     "a",
                     "a1",
                     "a3",
-                    "g",
-                    "2",
-                    "3",
-                    "8"
+                    "1"
                   ],
-                  "allergensRaw": "S,a,a1,a3,g,2,3,8",
+                  "allergensRaw": "VG,a,a1,a3,1",
                   "price": {
-                    "raw": "4,20 € / 6,10 €",
+                    "raw": "4,10 € / 5,80 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      6.1
+                      4.1,
+                      5.8
                     ],
                     "labels": [
                       "students",
@@ -4018,27 +4017,24 @@
           },
           "categories": [
             {
-              "title": "Pizza  [1]",
+              "title": "Pizza [2]",
               "meals": [
                 {
-                  "title": "Pizza \"Schinken\"",
+                  "title": "Pizza \"Margherita\"",
                   "allergens": [
-                    "S",
+                    "V",
                     "a",
                     "a1",
                     "a3",
-                    "g",
-                    "2",
-                    "3",
-                    "8"
+                    "g"
                   ],
-                  "allergensRaw": "S,a,a1,a3,g,2,3,8",
+                  "allergensRaw": "V,a,a1,a3,g",
                   "price": {
-                    "raw": "4,20 € / 6,10 €",
+                    "raw": "3,90 € / 5,60 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      6.1
+                      3.9,
+                      5.6
                     ],
                     "labels": [
                       "students",
@@ -4377,24 +4373,27 @@
               ]
             },
             {
-              "title": "Pizza [2]",
+              "title": "Pizza  [1]",
               "meals": [
                 {
-                  "title": "Pizza \"Margherita\"",
+                  "title": "Pizza \"Schinken\"",
                   "allergens": [
-                    "V",
+                    "S",
                     "a",
                     "a1",
                     "a3",
-                    "g"
+                    "g",
+                    "2",
+                    "3",
+                    "8"
                   ],
-                  "allergensRaw": "V,a,a1,a3,g",
+                  "allergensRaw": "S,a,a1,a3,g,2,3,8",
                   "price": {
-                    "raw": "3,90 € / 5,60 €",
+                    "raw": "4,20 € / 6,10 €",
                     "currency": "EUR",
                     "values": [
-                      3.9,
-                      5.6
+                      4.2,
+                      6.1
                     ],
                     "labels": [
                       "students",
