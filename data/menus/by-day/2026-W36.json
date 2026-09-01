@@ -5,7 +5,7 @@
     "from": "2026-08-31",
     "to": "2026-09-04"
   },
-  "generatedAt": "2026-08-31T11:36:29.421Z",
+  "generatedAt": "2026-09-01T10:07:36.691Z",
   "days": {
     "2026-08-31": {
       "label": "Mo, 31.08.",
@@ -131,25 +131,26 @@
               ]
             },
             {
-              "title": "Pizza  [1]",
+              "title": "Grillstation",
               "meals": [
                 {
-                  "title": "Pizza \"Thunfisch\"",
+                  "title": "Hähnchenschnitzel  mit Ratatouille und Gnocchis",
                   "allergens": [
-                    "F",
+                    "G",
                     "a",
                     "a1",
                     "a3",
-                    "d",
-                    "g"
+                    "c",
+                    "i",
+                    "j"
                   ],
-                  "allergensRaw": "F,a,a1,a3,d,g",
+                  "allergensRaw": "G,a,a1,a3,c,i,j",
                   "price": {
-                    "raw": "4,20 € / 6,10 €",
+                    "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      6.1
+                      5.9,
+                      8.4
                     ],
                     "labels": [
                       "students",
@@ -334,24 +335,25 @@
               ]
             },
             {
-              "title": "Veggie Spezial",
+              "title": "Pizza  [1]",
               "meals": [
                 {
-                  "title": "\"Death by Cheese\"-Lasagne",
+                  "title": "Pizza \"Thunfisch\"",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
-                    "g",
-                    "i"
+                    "a3",
+                    "d",
+                    "g"
                   ],
-                  "allergensRaw": "V,a,a1,g,i",
+                  "allergensRaw": "F,a,a1,a3,d,g",
                   "price": {
-                    "raw": "4,50 € / 6,40 €",
+                    "raw": "4,20 € / 6,10 €",
                     "currency": "EUR",
                     "values": [
-                      4.5,
-                      6.4
+                      4.2,
+                      6.1
                     ],
                     "labels": [
                       "students",
@@ -393,21 +395,24 @@
               ]
             },
             {
-              "title": "Grillstation",
+              "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Hähnchenbrust  mit Ratatouille und Gnocchis",
+                  "title": "\"Death by Cheese\"-Lasagne",
                   "allergens": [
-                    "G",
-                    "c"
+                    "V",
+                    "a",
+                    "a1",
+                    "g",
+                    "i"
                   ],
-                  "allergensRaw": "G,c",
+                  "allergensRaw": "V,a,a1,g,i",
                   "price": {
-                    "raw": "5,90 € / 8,40 €",
+                    "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      5.9,
-                      8.4
+                      4.5,
+                      6.4
                     ],
                     "labels": [
                       "students",
@@ -1160,24 +1165,25 @@
               ]
             },
             {
-              "title": "Pasta [1]",
+              "title": "Grillstation",
               "meals": [
                 {
-                  "title": "Pasta \"Bolognese\" mit Rinderhacksauce",
+                  "title": "Hähnchenschnitzel mit Kartoffelsalat",
                   "allergens": [
-                    "R",
+                    "G",
                     "a",
                     "a1",
-                    "g",
-                    "i"
+                    "a3",
+                    "i",
+                    "j"
                   ],
-                  "allergensRaw": "R,a,a1,g,i",
+                  "allergensRaw": "G,a,a1,a3,i,j",
                   "price": {
-                    "raw": "4,10 € / 5,90 €",
+                    "raw": "5,90 € / 8,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.1,
-                      5.9
+                      5.9,
+                      8.4
                     ],
                     "labels": [
                       "students",
@@ -1258,25 +1264,24 @@
               ]
             },
             {
-              "title": "Grillstation",
+              "title": "Pasta [1]",
               "meals": [
                 {
-                  "title": "Hähnchenschnitzel mit Kartoffelsalat",
+                  "title": "Pasta \"Bolognese\" mit Rinderhacksauce",
                   "allergens": [
-                    "G",
+                    "R",
                     "a",
                     "a1",
-                    "a3",
-                    "i",
-                    "j"
+                    "g",
+                    "i"
                   ],
-                  "allergensRaw": "G,a,a1,a3,i,j",
+                  "allergensRaw": "R,a,a1,g,i",
                   "price": {
-                    "raw": "5,90 € / 8,40 €",
+                    "raw": "4,10 € / 5,90 €",
                     "currency": "EUR",
                     "values": [
-                      5.9,
-                      8.4
+                      4.1,
+                      5.9
                     ],
                     "labels": [
                       "students",
