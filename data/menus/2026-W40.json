@@ -5,7 +5,7 @@
     "from": "2026-09-28",
     "to": "2026-10-02"
   },
-  "generatedAt": "2026-09-22T09:58:26.864Z",
+  "generatedAt": "2026-09-23T09:59:40.519Z",
   "canteens": {
     "main": {
       "name": "Mensa Ruhr-Universität Bochum",
@@ -3730,22 +3730,53 @@
           "label": "Mo, 28.09.",
           "categories": [
             {
-              "title": "Dessert 1",
+              "title": "Kuchen",
               "meals": [
                 {
-                  "title": "Grießpudding mit Erdbeersauce",
+                  "title": "Apple Cake",
                   "allergens": [
                     "VG",
                     "a",
-                    "a1"
+                    "a1",
+                    "h",
+                    "h1"
                   ],
-                  "allergensRaw": "VG,a,a1",
+                  "allergensRaw": "VG,a,a1,h,h1",
                   "price": {
-                    "raw": "1,80 € / 2,40 €",
+                    "raw": "2,10 € / 2,70 €",
                     "currency": "EUR",
                     "values": [
-                      1.8,
-                      2.4
+                      2.1,
+                      2.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Bratwurst vegan mit Currysauce, Pommes frites und Bohnensalat (VG,j,1,2,9)",
+                  "allergens": [
+                    "VG",
+                    "j",
+                    "1",
+                    "2",
+                    "9"
+                  ],
+                  "allergensRaw": "VG,j,1,2,9",
+                  "price": {
+                    "raw": "6,00 € / 8,50 €",
+                    "currency": "EUR",
+                    "values": [
+                      6,
+                      8.5
                     ],
                     "labels": [
                       "students",
@@ -3814,53 +3845,22 @@
               ]
             },
             {
-              "title": "Aktionsgericht",
+              "title": "Dessert 1",
               "meals": [
                 {
-                  "title": "Calzone -gefüllte Pizza- (VG,a,a1,l,1)",
+                  "title": "Grießpudding mit Erdbeersauce",
                   "allergens": [
                     "VG",
                     "a",
-                    "a1",
-                    "l",
-                    "1"
+                    "a1"
                   ],
-                  "allergensRaw": "VG,a,a1,l,1",
+                  "allergensRaw": "VG,a,a1",
                   "price": {
-                    "raw": "5,00 € / 7,10 €",
+                    "raw": "1,80 € / 2,40 €",
                     "currency": "EUR",
                     "values": [
-                      5,
-                      7.1
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Apple Cake",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a1,h,h1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -3877,73 +3877,29 @@
           "label": "Di, 29.09.",
           "categories": [
             {
-              "title": "Kuchen",
+              "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Saftige Rüblitorte",
+                  "title": "Okonomiyaki (japanische Pfannkuchen) (VG,a,a1,e,f,j,k,1,2,3)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
+                    "e",
                     "f",
-                    "h",
-                    "h1"
-                  ],
-                  "allergensRaw": "VG,a,a1,f,h,h1",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Tagessuppe",
-              "meals": [
-                {
-                  "title": "quick & easy - Tagessuppe (VG,a,a1,a3,j,l,1,3,5)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "a3",
                     "j",
-                    "l",
+                    "k",
                     "1",
-                    "3",
-                    "5"
+                    "2",
+                    "3"
                   ],
-                  "allergensRaw": "VG,a,a1,a3,j,l,1,3,5",
-                  "price": null,
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Panna-Cotta mit Himbeerspiegel",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
+                  "allergensRaw": "VG,a,a1,e,f,j,k,1,2,3",
                   "price": {
-                    "raw": "1,80 € / 2,40 €",
+                    "raw": "5,50 € / 7,80 €",
                     "currency": "EUR",
                     "values": [
-                      1.8,
-                      2.4
+                      5.5,
+                      7.8
                     ],
                     "labels": [
                       "students",
@@ -3989,29 +3945,73 @@
               ]
             },
             {
-              "title": "Aktionsgericht",
+              "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Okonomiyaki (japanische Pfannkuchen) (VG,a,a1,e,f,j,k,1,2,3)",
+                  "title": "quick & easy - Tagessuppe (VG,a,a1,a3,j,l,1,3,5)",
                   "allergens": [
                     "VG",
                     "a",
                     "a1",
-                    "e",
-                    "f",
+                    "a3",
                     "j",
-                    "k",
+                    "l",
                     "1",
-                    "2",
-                    "3"
+                    "3",
+                    "5"
                   ],
-                  "allergensRaw": "VG,a,a1,e,f,j,k,1,2,3",
+                  "allergensRaw": "VG,a,a1,a3,j,l,1,3,5",
+                  "price": null,
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Kuchen",
+              "meals": [
+                {
+                  "title": "Saftige Rüblitorte",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f",
+                    "h",
+                    "h1"
+                  ],
+                  "allergensRaw": "VG,a,a1,f,h,h1",
                   "price": {
-                    "raw": "5,50 € / 7,80 €",
+                    "raw": "2,10 € / 2,70 €",
                     "currency": "EUR",
                     "values": [
-                      5.5,
-                      7.8
+                      2.1,
+                      2.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Dessert 1",
+              "meals": [
+                {
+                  "title": "Panna-Cotta mit Himbeerspiegel",
+                  "allergens": [
+                    "VG",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,80 € / 2,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.8,
+                      2.4
                     ],
                     "labels": [
                       "students",
@@ -4027,6 +4027,88 @@
         "2026-09-30": {
           "label": "Mi, 30.09.",
           "categories": [
+            {
+              "title": "Dessert 1",
+              "meals": [
+                {
+                  "title": "Vanillepudding ohne Schnickschnack",
+                  "allergens": [
+                    "VG",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,f",
+                  "price": {
+                    "raw": "1,80 € / 2,40 €",
+                    "currency": "EUR",
+                    "values": [
+                      1.8,
+                      2.4
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Aktionsgericht",
+              "meals": [
+                {
+                  "title": "Kabuli-Palau  (afghanisches Reisgericht mit Rosinen, Tofu und Möhren)  (VG,a,a1,f)",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,a,a1,f",
+                  "price": {
+                    "raw": "5,50 € / 7,80 €",
+                    "currency": "EUR",
+                    "values": [
+                      5.5,
+                      7.8
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Kuchen",
+              "meals": [
+                {
+                  "title": "Mohn-Orangenkuchen",
+                  "allergens": [
+                    "VG",
+                    "a",
+                    "a1",
+                    "f"
+                  ],
+                  "allergensRaw": "VG,a,a1,f",
+                  "price": {
+                    "raw": "2,10 € / 2,70 €",
+                    "currency": "EUR",
+                    "values": [
+                      2.1,
+                      2.7
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
             {
               "title": "Tagessuppe",
               "meals": [
@@ -4082,88 +4164,6 @@
                   "highlight": false
                 }
               ]
-            },
-            {
-              "title": "Kuchen",
-              "meals": [
-                {
-                  "title": "Mohn-Orangenkuchen",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,a,a1,f",
-                  "price": {
-                    "raw": "2,10 € / 2,70 €",
-                    "currency": "EUR",
-                    "values": [
-                      2.1,
-                      2.7
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Aktionsgericht",
-              "meals": [
-                {
-                  "title": "Kabuli-Palau  (afghanisches Reisgericht mit Rosinen, Tofu und Möhren)  (VG,a,a1,f)",
-                  "allergens": [
-                    "VG",
-                    "a",
-                    "a1",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,a,a1,f",
-                  "price": {
-                    "raw": "5,50 € / 7,80 €",
-                    "currency": "EUR",
-                    "values": [
-                      5.5,
-                      7.8
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Dessert 1",
-              "meals": [
-                {
-                  "title": "Vanillepudding ohne Schnickschnack",
-                  "allergens": [
-                    "VG",
-                    "f"
-                  ],
-                  "allergensRaw": "VG,f",
-                  "price": {
-                    "raw": "1,80 € / 2,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      1.8,
-                      2.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
             }
           ]
         },
@@ -4174,7 +4174,7 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Asia-Curry Burger (VG,a,a1,a3,f,1,2) Kartoffeltwister (VG,a,a1)",
+                  "title": "Asia-Curry Burger mit Kartoffeltwister (VG,a,a1,a3,f,1,2)",
                   "allergens": [
                     "VG",
                     "a",
@@ -4409,21 +4409,21 @@
               "title": "Aktionsgericht",
               "meals": [
                 {
-                  "title": "Bratwurst vegan mit Currysauce, Pommes frites und Bohnensalat (VG,j,1,2,9)",
+                  "title": "Calzone -gefüllte Pizza- (VG,a,a1,l,1)",
                   "allergens": [
                     "VG",
-                    "j",
-                    "1",
-                    "2",
-                    "9"
+                    "a",
+                    "a1",
+                    "l",
+                    "1"
                   ],
-                  "allergensRaw": "VG,j,1,2,9",
+                  "allergensRaw": "VG,a,a1,l,1",
                   "price": {
-                    "raw": "6,00 € / 8,50 €",
+                    "raw": "5,00 € / 7,10 €",
                     "currency": "EUR",
                     "values": [
-                      6,
-                      8.5
+                      5,
+                      7.1
                     ],
                     "labels": [
                       "students",
