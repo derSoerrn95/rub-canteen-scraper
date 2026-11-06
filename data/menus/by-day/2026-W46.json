@@ -5,7 +5,7 @@
     "from": "2026-11-09",
     "to": "2026-11-13"
   },
-  "generatedAt": "2026-11-05T13:12:32.113Z",
+  "generatedAt": "2026-11-06T12:57:36.402Z",
   "days": {
     "2026-11-09": {
       "label": "Mo, 09.11.",
@@ -461,25 +461,24 @@
               ]
             },
             {
-              "title": "Pizza  [1]",
+              "title": "Veggie Spezial",
               "meals": [
                 {
-                  "title": "Pizza \"Thunfisch\"",
+                  "title": "\"Death by Cheese\"-Lasagne",
                   "allergens": [
-                    "F",
+                    "V",
                     "a",
                     "a1",
-                    "a3",
-                    "d",
-                    "g"
+                    "g",
+                    "i"
                   ],
-                  "allergensRaw": "F,a,a1,a3,d,g",
+                  "allergensRaw": "V,a,a1,g,i",
                   "price": {
-                    "raw": "4,20 € / 6,10 €",
+                    "raw": "4,50 € / 6,40 €",
                     "currency": "EUR",
                     "values": [
-                      4.2,
-                      6.1
+                      4.5,
+                      6.4
                     ],
                     "labels": [
                       "students",
@@ -634,35 +633,6 @@
               ]
             },
             {
-              "title": "Veggie Spezial",
-              "meals": [
-                {
-                  "title": "\"Death by Cheese\"-Lasagne",
-                  "allergens": [
-                    "V",
-                    "a",
-                    "a1",
-                    "g",
-                    "i"
-                  ],
-                  "allergensRaw": "V,a,a1,g,i",
-                  "price": {
-                    "raw": "4,50 € / 6,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.5,
-                      6.4
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
               "title": "Pizza [3]",
               "meals": [
                 {
@@ -681,6 +651,35 @@
                     "values": [
                       4.1,
                       5.8
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
+              "title": "Pizza [2]",
+              "meals": [
+                {
+                  "title": "Pizza \"Margherita\"",
+                  "allergens": [
+                    "V",
+                    "a",
+                    "a1",
+                    "a3",
+                    "g"
+                  ],
+                  "allergensRaw": "V,a,a1,a3,g",
+                  "price": {
+                    "raw": "3,90 € / 5,60 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.9,
+                      5.6
                     ],
                     "labels": [
                       "students",
@@ -816,24 +815,25 @@
               ]
             },
             {
-              "title": "Pizza [2]",
+              "title": "Pizza  [1]",
               "meals": [
                 {
-                  "title": "Pizza \"Margherita\"",
+                  "title": "Pizza \"Thunfisch\"",
                   "allergens": [
-                    "V",
+                    "F",
                     "a",
                     "a1",
                     "a3",
+                    "d",
                     "g"
                   ],
-                  "allergensRaw": "V,a,a1,a3,g",
+                  "allergensRaw": "F,a,a1,a3,d,g",
                   "price": {
-                    "raw": "3,90 € / 5,60 €",
+                    "raw": "4,20 € / 6,10 €",
                     "currency": "EUR",
                     "values": [
-                      3.9,
-                      5.6
+                      4.2,
+                      6.1
                     ],
                     "labels": [
                       "students",
@@ -943,7 +943,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Wirsingtopf (VG,f,j,l,1,2)",
+                  "title": "Pilztopf (VG,f,j,l,1,2)",
                   "allergens": [
                     "VG",
                     "f",
@@ -1520,6 +1520,35 @@
               ]
             },
             {
+              "title": "Veggie Spezial",
+              "meals": [
+                {
+                  "title": "Grünkohleintopf  +1  Mettwurst extra",
+                  "allergens": [
+                    "VG",
+                    "j",
+                    "l",
+                    "3",
+                    "5"
+                  ],
+                  "allergensRaw": "VG,j,l,3,5",
+                  "price": {
+                    "raw": "3,70 € / 5,30 €",
+                    "currency": "EUR",
+                    "values": [
+                      3.7,
+                      5.3
+                    ],
+                    "labels": [
+                      "students",
+                      "guests"
+                    ]
+                  },
+                  "highlight": false
+                }
+              ]
+            },
+            {
               "title": "Grillstation",
               "meals": [
                 {
@@ -1607,35 +1636,6 @@
                     "values": [
                       6.1,
                       7.8
-                    ],
-                    "labels": [
-                      "students",
-                      "guests"
-                    ]
-                  },
-                  "highlight": false
-                }
-              ]
-            },
-            {
-              "title": "Veggie Spezial",
-              "meals": [
-                {
-                  "title": "Backkartoffel mit Linsen- Bolognese und Salat",
-                  "allergens": [
-                    "V",
-                    "l",
-                    "1",
-                    "3",
-                    "5"
-                  ],
-                  "allergensRaw": "V,l,1,3,5",
-                  "price": {
-                    "raw": "4,50 € / 6,40 €",
-                    "currency": "EUR",
-                    "values": [
-                      4.5,
-                      6.4
                     ],
                     "labels": [
                       "students",
@@ -2065,7 +2065,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Wirsingtopf (VG,f,j,l,1,2)",
+                  "title": "Pilztopf (VG,f,j,l,1,2)",
                   "allergens": [
                     "VG",
                     "f",
@@ -3217,7 +3217,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Wirsingtopf (VG,f,j,l,1,2)",
+                  "title": "Pilztopf (VG,f,j,l,1,2)",
                   "allergens": [
                     "VG",
                     "f",
@@ -4215,7 +4215,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Wirsingtopf (VG,f,j,l,1,2)",
+                  "title": "Pilztopf (VG,f,j,l,1,2)",
                   "allergens": [
                     "VG",
                     "f",
@@ -5212,7 +5212,7 @@
               "title": "Tagessuppe",
               "meals": [
                 {
-                  "title": "Wirsingtopf (VG,f,j,l,1,2)",
+                  "title": "Pilztopf (VG,f,j,l,1,2)",
                   "allergens": [
                     "VG",
                     "f",
